@@ -3,7 +3,7 @@ from datetime import datetime
 
 from pydantic import BaseModel, EmailStr, Field, model_validator
 
-from src.domain.entities.models import StickerStatus
+from src.domain.entities.models import StickerStatus, UserRole
 
 
 # --- Auth ---
@@ -66,19 +66,91 @@ class UserResponse(BaseModel):
     username: str
     full_name: str
     email: str
+    role: UserRole
     created_at: datetime
+
+
+class AdminUserResponse(BaseModel):
+    id: int
+    username: str
+    full_name: str
+    email: str
+    phone: str
+    role: UserRole
+    is_active: bool
+    created_at: datetime
+
+
+# --- Album Templates ---
+class TemplateStickerResponse(BaseModel):
+    code: str
+    label: str
+    position: int
+
+
+class TemplateSectionResponse(BaseModel):
+    id: int
+    name: str
+    code_prefix: str
+    order: int
+    stickers: list[TemplateStickerResponse]
+
+
+class AlbumTemplateResponse(BaseModel):
+    id: int
+    name: str
+    description: str
+    total_stickers: int
+    is_active: bool
+    created_at: datetime
+    sections: list[TemplateSectionResponse] = []
+
+
+class AlbumTemplateListResponse(BaseModel):
+    id: int
+    name: str
+    description: str
+    total_stickers: int
+    is_active: bool
+    created_at: datetime
+
+
+class TemplateStickerInput(BaseModel):
+    code: str = Field(min_length=1, max_length=20)
+    label: str = Field(default="", max_length=100)
+    position: int = Field(ge=1)
+
+
+class TemplateSectionInput(BaseModel):
+    name: str = Field(min_length=1, max_length=100)
+    code_prefix: str = Field(min_length=1, max_length=10)
+    order: int = Field(default=0, ge=0)
+    stickers: list[TemplateStickerInput] = Field(min_length=1)
+
+
+class AlbumTemplateCreateRequest(BaseModel):
+    name: str = Field(min_length=2, max_length=150)
+    description: str = Field(default="", max_length=1000)
+    sections: list[TemplateSectionInput] = Field(min_length=1)
+
+
+class AlbumTemplateUpdateRequest(BaseModel):
+    name: str = Field(min_length=2, max_length=150)
+    description: str = Field(default="", max_length=1000)
+    is_active: bool = True
 
 
 # --- Album ---
 class AlbumCreateRequest(BaseModel):
     name: str = Field(min_length=2, max_length=100)
-    total_stickers: int = Field(ge=1, le=5000, default=670)
+    total_stickers: int = Field(ge=1, le=10000, default=670)
     description: str = Field(default="", max_length=500)
+    template_id: int | None = None
 
 
 class AlbumUpdateRequest(BaseModel):
     name: str = Field(min_length=2, max_length=100)
-    total_stickers: int = Field(ge=1, le=5000)
+    total_stickers: int = Field(ge=1, le=10000)
 
 
 class AlbumResponse(BaseModel):
@@ -87,6 +159,7 @@ class AlbumResponse(BaseModel):
     description: str
     total_stickers: int
     owner_id: int
+    template_id: int | None
     created_at: datetime
 
 
@@ -109,7 +182,7 @@ class StickerBulkItem(BaseModel):
 
 
 class StickerBulkRequest(BaseModel):
-    stickers: list[StickerBulkItem] = Field(min_length=1, max_length=5000)
+    stickers: list[StickerBulkItem] = Field(min_length=1, max_length=10000)
 
 
 class StickerResponse(BaseModel):
@@ -117,6 +190,7 @@ class StickerResponse(BaseModel):
     album_id: int
     user_id: int
     number: int
+    code: str | None
     status: StickerStatus
     updated_at: datetime
 
@@ -125,11 +199,55 @@ class StickerResponse(BaseModel):
 class SwapMatchResponse(BaseModel):
     friend_id: int
     friend_username: str
-    can_give: list[int]
-    can_receive: list[int]
+    friend_full_name: str
+    friend_phone: str
+    can_give: list[str]
+    can_receive: list[str]
     total_possible: int = 0
 
     @model_validator(mode="after")
     def compute_total(self) -> "SwapMatchResponse":
         self.total_possible = len(self.can_give) + len(self.can_receive)
         return self
+
+
+class StickerHolderResponse(BaseModel):
+    user_id: int
+    username: str
+    full_name: str
+    phone: str
+
+
+class MissingStickerMatchResponse(BaseModel):
+    sticker_code: str
+    sticker_number: int
+    holders: list[StickerHolderResponse]
+
+
+# --- Swap Requests ---
+class SwapRequestCreateRequest(BaseModel):
+    receiver_id: int
+    message: str = Field(default="", max_length=500)
+
+
+class SwapRequestActionRequest(BaseModel):
+    action: str = Field(pattern="^(accept|decline)$")
+
+
+class SwapRequestUserInfo(BaseModel):
+    id: int
+    username: str
+    full_name: str
+
+
+class SwapRequestResponse(BaseModel):
+    id: int
+    requester: SwapRequestUserInfo
+    receiver: SwapRequestUserInfo
+    message: str
+    status: str
+    created_at: datetime
+
+
+class PendingCountResponse(BaseModel):
+    count: int

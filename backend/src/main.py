@@ -6,13 +6,23 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from src.config import settings
-from src.infrastructure.db.session import init_db
-from src.interfaces.api.routers.api import album_router, auth_router, sticker_router
+from src.infrastructure.db.session import init_db, async_session_factory
+from src.infrastructure.seeders.seeder import run_seeders
+from src.interfaces.api.routers.api import (
+    admin_router,
+    album_router,
+    auth_router,
+    sticker_router,
+    swap_request_router,
+    template_router,
+)
 
 
 @asynccontextmanager
-async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
+async def lifespan(_app: FastAPI) -> AsyncGenerator[None, None]:
     await init_db()
+    async with async_session_factory() as session:
+        await run_seeders(session)
     yield
 
 
@@ -35,6 +45,9 @@ app.add_middleware(
 app.include_router(auth_router, prefix=settings.api_prefix)
 app.include_router(album_router, prefix=settings.api_prefix)
 app.include_router(sticker_router, prefix=settings.api_prefix)
+app.include_router(template_router, prefix=settings.api_prefix)
+app.include_router(admin_router, prefix=settings.api_prefix)
+app.include_router(swap_request_router, prefix=settings.api_prefix)
 
 
 @app.get("/health")

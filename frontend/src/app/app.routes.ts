@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 import { authGuard } from './core/guards/auth.guard';
+import { adminGuard } from './core/guards/admin.guard';
 
 export const routes: Routes = [
   {
@@ -40,6 +41,21 @@ export const routes: Routes = [
     path: 'albums/:id/swaps',
     canActivate: [authGuard],
     loadComponent: () => import('./features/swaps/swap-matches.component').then(m => m.SwapMatchesComponent),
+  },
+  {
+    path: 'swap-requests',
+    canActivate: [authGuard],
+    loadComponent: () => import('./features/swaps/swap-requests.component').then(m => m.SwapRequestsComponent),
+  },
+  {
+    path: 'admin/templates',
+    canActivate: [adminGuard],
+    loadComponent: () => import('./features/admin/admin-templates.component').then(m => m.AdminTemplatesComponent),
+  },
+  {
+    path: 'admin/users',
+    canActivate: [adminGuard],
+    loadComponent: () => import('./features/admin/admin-users.component').then(m => m.AdminUsersComponent),
   },
   { path: '**', redirectTo: '' },
 ];
