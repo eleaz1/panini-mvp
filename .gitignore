@@ -1,0 +1,16 @@
+# Environment files
+backend/.env
+.env
+**/.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/

@@ -12,7 +12,7 @@ import { MatIconModule } from '@angular/material/icon';
     <nav class="navbar">
       <div class="nav-brand">
         <span class="brand-icon">⚽</span>
-        <span class="brand-name">Panini MVP</span>
+        <span class="brand-name">LAMINY</span>
       </div>
       <div class="nav-actions">
         <a mat-button routerLink="/login" class="nav-login">Iniciar sesión</a>
@@ -157,7 +157,7 @@ import { MatIconModule } from '@angular/material/icon';
 
     <!-- FOOTER -->
     <footer class="footer">
-      <p>Panini MVP 2026 · Hecho con ❤️ para amantes del fútbol</p>
+      <p>LAMINY 2026 · Hecho con ❤️ para amantes del fútbol</p>
       <div class="footer-links">
         <a routerLink="/login">Iniciar sesión</a>
         <a routerLink="/register">Registrarse</a>

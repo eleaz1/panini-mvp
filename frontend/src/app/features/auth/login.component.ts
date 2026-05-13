@@ -56,7 +56,7 @@ const STICKERS = [
       <div class="login-panel">
         <div class="panel-header">
           <div class="logo">⚽</div>
-          <h1>Panini MVP</h1>
+          <h1>LAMINY</h1>
           <p>Mundial 2026</p>
         </div>
 

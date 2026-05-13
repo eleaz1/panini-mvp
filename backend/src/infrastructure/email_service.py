@@ -15,13 +15,13 @@ logger = logging.getLogger(__name__)
 def _build_verification_email(to_email: str, username: str, token: str) -> EmailMessage:
     link = f"{settings.frontend_url}/verify-email?token={token}"
     msg = EmailMessage()
-    msg["Subject"] = "Panini MVP — Verifica tu correo"
+    msg["Subject"] = "LAMINY — Verifica tu correo"
     msg["From"] = settings.smtp_from
     msg["To"] = to_email
     msg.set_content(
         f"Hola {username},\n\n"
         f"Haz clic en el siguiente enlace para activar tu cuenta:\n{link}\n\n"
-        f"El enlace expira en 24 horas.\n\nPanini MVP"
+        f"El enlace expira en 24 horas.\n\nLAMINY"
     )
     msg.add_alternative(
         f"""<html><body>
@@ -41,13 +41,13 @@ def _build_verification_email(to_email: str, username: str, token: str) -> Email
 def _build_reset_email(to_email: str, username: str, token: str) -> EmailMessage:
     link = f"{settings.frontend_url}/reset-password?token={token}"
     msg = EmailMessage()
-    msg["Subject"] = "Panini MVP — Restablecer contraseña"
+    msg["Subject"] = "LAMINY — Restablecer contraseña"
     msg["From"] = settings.smtp_from
     msg["To"] = to_email
     msg.set_content(
         f"Hola {username},\n\n"
         f"Recibimos una solicitud para restablecer tu contraseña:\n{link}\n\n"
-        f"El enlace expira en 1 hora. Si no solicitaste esto, ignora este correo.\n\nPanini MVP"
+        f"El enlace expira en 1 hora. Si no solicitaste esto, ignora este correo.\n\nLAMINY"
     )
     msg.add_alternative(
         f"""<html><body>

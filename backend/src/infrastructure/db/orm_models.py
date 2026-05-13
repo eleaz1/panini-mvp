@@ -104,7 +104,7 @@ class AlbumORM(Base):
 
     owner: Mapped["UserORM"] = relationship(back_populates="albums")
     template: Mapped["AlbumTemplateORM | None"] = relationship(back_populates="albums")
-    stickers: Mapped[list["StickerORM"]] = relationship(back_populates="album")
+    stickers: Mapped[list["StickerORM"]] = relationship(back_populates="album", cascade="all, delete-orphan")
 
 
 class StickerORM(Base):

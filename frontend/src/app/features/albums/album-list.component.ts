@@ -29,7 +29,7 @@ import { AlbumFormComponent } from './album-form.component';
         <div class="header-inner">
           <div class="brand">
             <span class="brand-ball">⚽</span>
-            <span class="brand-name">Panini 2026</span>
+            <span class="brand-name">LAMINY</span>
           </div>
           <div class="header-right">
             @if (auth.isAdmin()) {

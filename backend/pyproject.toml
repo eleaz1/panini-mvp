@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "panini-mvp"
+name = "laminy"
 version = "0.1.0"
-description = "Panini album tracker MVP"
+description = "LAMINY — Album tracker"
 authors = ["Ivan"]
 package-mode = false
 

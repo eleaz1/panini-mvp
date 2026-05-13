@@ -1,11 +1,12 @@
-"""World Cup 2026 Panini album template seed data — 980 stickers total.
+"""World Cup 2026 Panini album template seed data — 994 stickers total.
 
 Sticker code format: PREFIX + NUMBER (no dash), e.g. ARG1, MEX20, FWC5.
 Structure:
   - 1 intro sticker: 00 (Panini logo)
   - 19 tournament stickers: FWC1–FWC19
+  - 14 Coca-Cola special stickers: CC1–CC14
   - 48 teams × 20 stickers = 960
-  Total: 980
+  Total: 994
 """
 from src.domain.entities.models import TemplateSection, TemplateSticker
 
@@ -85,8 +86,26 @@ _TEAMS = [
 ]
 
 
+_CC_LABELS = [
+    "Coca-Cola x FIFA 1",
+    "Coca-Cola x FIFA 2",
+    "Coca-Cola x FIFA 3",
+    "Coca-Cola x FIFA 4",
+    "Coca-Cola x FIFA 5",
+    "Coca-Cola x FIFA 6",
+    "Coca-Cola x FIFA 7",
+    "Coca-Cola x FIFA 8",
+    "Coca-Cola x FIFA 9",
+    "Coca-Cola x FIFA 10",
+    "Coca-Cola x FIFA 11",
+    "Coca-Cola x FIFA 12",
+    "Coca-Cola x FIFA 13",
+    "Coca-Cola x FIFA 14",
+]
+
+
 def build_wc2026_sections() -> list[TemplateSection]:
-    """Returns all 49 sections for the FIFA World Cup 2026 Panini album (980 stickers)."""
+    """Returns all 50 sections for the FIFA World Cup 2026 Panini album (994 stickers)."""
     sections: list[TemplateSection] = []
     pos = 1
 
@@ -130,6 +149,20 @@ def build_wc2026_sections() -> list[TemplateSection]:
     ))
     pos += 20  # 1 (00) + 19 (FWC1–FWC19)
 
+    # ── Sección Coca-Cola (14 láminas: CC1–CC14) ─────────────────────────────
+    cc_stickers = [
+        TemplateSticker(code=f"CC{i}", label=_CC_LABELS[i - 1], position=pos + (i - 1))
+        for i in range(1, 15)
+    ]
+    sections.append(TemplateSection(
+        id=0, template_id=0,
+        name="Coca-Cola",
+        code_prefix="CC",
+        order=49,
+        stickers=cc_stickers,
+    ))
+    pos += 14  # CC1–CC14
+
     # ── 48 selecciones × 20 láminas ──────────────────────────────────────────
     for order, (prefix, name) in enumerate(_TEAMS, start=1):
         stickers = [
@@ -149,14 +182,14 @@ def build_wc2026_sections() -> list[TemplateSection]:
         ))
         pos += 20
 
-    return sections  # total stickers = 20 + 48×20 = 980
+    return sections  # total stickers = 20 + 14 + 48×20 = 994
 
 
 WORLD_CUP_2026_TEMPLATE = {
     "name": "FIFA World Cup 2026™",
     "description": (
         "Álbum oficial Panini del Mundial de Fútbol 2026 — "
-        "48 selecciones, 980 láminas. "
+        "48 selecciones, 994 láminas. "
         "Sede: Canadá, México y Estados Unidos."
     ),
 }

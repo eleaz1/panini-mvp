@@ -81,7 +81,7 @@ const STICKERS = [
           <div class="panel-header">
             <div class="logo">⚽</div>
             <h1>Crea tu cuenta</h1>
-            <p>Panini MVP · Mundial 2026</p>
+            <p>LAMINY · Mundial 2026</p>
           </div>
 
           <form [formGroup]="form" (ngSubmit)="submit()" class="register-form">

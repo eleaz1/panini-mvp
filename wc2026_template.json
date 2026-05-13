@@ -1,0 +1,5327 @@
+{
+  "name": "FIFA World Cup 2026™",
+  "description": "Álbum oficial Panini del Mundial de Fútbol 2026 — 48 selecciones, 994 láminas.",
+  "total_stickers": 994,
+  "sections": [
+    {
+      "order": 0,
+      "name": "FIFA World Cup 2026",
+      "code_prefix": "FWC",
+      "stickers": [
+        {
+          "code": "00",
+          "label": "Logo Panini",
+          "position": 1
+        },
+        {
+          "code": "FWC1",
+          "label": "Emblema oficial",
+          "position": 2
+        },
+        {
+          "code": "FWC2",
+          "label": "Mascota oficial",
+          "position": 3
+        },
+        {
+          "code": "FWC3",
+          "label": "Lema oficial",
+          "position": 4
+        },
+        {
+          "code": "FWC4",
+          "label": "Balón oficial",
+          "position": 5
+        },
+        {
+          "code": "FWC5",
+          "label": "Trofeo FIFA",
+          "position": 6
+        },
+        {
+          "code": "FWC6",
+          "label": "Sede: Canadá",
+          "position": 7
+        },
+        {
+          "code": "FWC7",
+          "label": "Sede: México",
+          "position": 8
+        },
+        {
+          "code": "FWC8",
+          "label": "Sede: Estados Unidos",
+          "position": 9
+        },
+        {
+          "code": "FWC9",
+          "label": "Campeones 1930 Uruguay",
+          "position": 10
+        },
+        {
+          "code": "FWC10",
+          "label": "Campeones 1934 Italia",
+          "position": 11
+        },
+        {
+          "code": "FWC11",
+          "label": "Campeones 1938 Italia",
+          "position": 12
+        },
+        {
+          "code": "FWC12",
+          "label": "Campeones 1950 Uruguay",
+          "position": 13
+        },
+        {
+          "code": "FWC13",
+          "label": "Campeones 1954 Alemania",
+          "position": 14
+        },
+        {
+          "code": "FWC14",
+          "label": "Campeones 1958 Brasil",
+          "position": 15
+        },
+        {
+          "code": "FWC15",
+          "label": "Campeones 1962 Brasil",
+          "position": 16
+        },
+        {
+          "code": "FWC16",
+          "label": "Campeones 1966 Inglaterra",
+          "position": 17
+        },
+        {
+          "code": "FWC17",
+          "label": "Campeones 1970 Brasil",
+          "position": 18
+        },
+        {
+          "code": "FWC18",
+          "label": "Campeones 1974 Alemania",
+          "position": 19
+        },
+        {
+          "code": "FWC19",
+          "label": "Campeones 1978 Argentina",
+          "position": 20
+        }
+      ]
+    },
+    {
+      "order": 49,
+      "name": "Coca-Cola",
+      "code_prefix": "CC",
+      "stickers": [
+        {
+          "code": "CC1",
+          "label": "Coca-Cola x FIFA 1",
+          "position": 21
+        },
+        {
+          "code": "CC2",
+          "label": "Coca-Cola x FIFA 2",
+          "position": 22
+        },
+        {
+          "code": "CC3",
+          "label": "Coca-Cola x FIFA 3",
+          "position": 23
+        },
+        {
+          "code": "CC4",
+          "label": "Coca-Cola x FIFA 4",
+          "position": 24
+        },
+        {
+          "code": "CC5",
+          "label": "Coca-Cola x FIFA 5",
+          "position": 25
+        },
+        {
+          "code": "CC6",
+          "label": "Coca-Cola x FIFA 6",
+          "position": 26
+        },
+        {
+          "code": "CC7",
+          "label": "Coca-Cola x FIFA 7",
+          "position": 27
+        },
+        {
+          "code": "CC8",
+          "label": "Coca-Cola x FIFA 8",
+          "position": 28
+        },
+        {
+          "code": "CC9",
+          "label": "Coca-Cola x FIFA 9",
+          "position": 29
+        },
+        {
+          "code": "CC10",
+          "label": "Coca-Cola x FIFA 10",
+          "position": 30
+        },
+        {
+          "code": "CC11",
+          "label": "Coca-Cola x FIFA 11",
+          "position": 31
+        },
+        {
+          "code": "CC12",
+          "label": "Coca-Cola x FIFA 12",
+          "position": 32
+        },
+        {
+          "code": "CC13",
+          "label": "Coca-Cola x FIFA 13",
+          "position": 33
+        },
+        {
+          "code": "CC14",
+          "label": "Coca-Cola x FIFA 14",
+          "position": 34
+        }
+      ]
+    },
+    {
+      "order": 1,
+      "name": "Argelia",
+      "code_prefix": "ALG",
+      "stickers": [
+        {
+          "code": "ALG1",
+          "label": "Escudo",
+          "position": 35
+        },
+        {
+          "code": "ALG2",
+          "label": "Foto grupal",
+          "position": 36
+        },
+        {
+          "code": "ALG3",
+          "label": "Jugador 1",
+          "position": 37
+        },
+        {
+          "code": "ALG4",
+          "label": "Jugador 2",
+          "position": 38
+        },
+        {
+          "code": "ALG5",
+          "label": "Jugador 3",
+          "position": 39
+        },
+        {
+          "code": "ALG6",
+          "label": "Jugador 4",
+          "position": 40
+        },
+        {
+          "code": "ALG7",
+          "label": "Jugador 5",
+          "position": 41
+        },
+        {
+          "code": "ALG8",
+          "label": "Jugador 6",
+          "position": 42
+        },
+        {
+          "code": "ALG9",
+          "label": "Jugador 7",
+          "position": 43
+        },
+        {
+          "code": "ALG10",
+          "label": "Jugador 8",
+          "position": 44
+        },
+        {
+          "code": "ALG11",
+          "label": "Jugador 9",
+          "position": 45
+        },
+        {
+          "code": "ALG12",
+          "label": "Jugador 10",
+          "position": 46
+        },
+        {
+          "code": "ALG13",
+          "label": "Jugador 11",
+          "position": 47
+        },
+        {
+          "code": "ALG14",
+          "label": "Jugador 12",
+          "position": 48
+        },
+        {
+          "code": "ALG15",
+          "label": "Jugador 13",
+          "position": 49
+        },
+        {
+          "code": "ALG16",
+          "label": "Jugador 14",
+          "position": 50
+        },
+        {
+          "code": "ALG17",
+          "label": "Jugador 15",
+          "position": 51
+        },
+        {
+          "code": "ALG18",
+          "label": "Jugador 16",
+          "position": 52
+        },
+        {
+          "code": "ALG19",
+          "label": "Jugador 17",
+          "position": 53
+        },
+        {
+          "code": "ALG20",
+          "label": "Jugador 18",
+          "position": 54
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "name": "Argentina",
+      "code_prefix": "ARG",
+      "stickers": [
+        {
+          "code": "ARG1",
+          "label": "Escudo",
+          "position": 55
+        },
+        {
+          "code": "ARG2",
+          "label": "Foto grupal",
+          "position": 56
+        },
+        {
+          "code": "ARG3",
+          "label": "Jugador 1",
+          "position": 57
+        },
+        {
+          "code": "ARG4",
+          "label": "Jugador 2",
+          "position": 58
+        },
+        {
+          "code": "ARG5",
+          "label": "Jugador 3",
+          "position": 59
+        },
+        {
+          "code": "ARG6",
+          "label": "Jugador 4",
+          "position": 60
+        },
+        {
+          "code": "ARG7",
+          "label": "Jugador 5",
+          "position": 61
+        },
+        {
+          "code": "ARG8",
+          "label": "Jugador 6",
+          "position": 62
+        },
+        {
+          "code": "ARG9",
+          "label": "Jugador 7",
+          "position": 63
+        },
+        {
+          "code": "ARG10",
+          "label": "Jugador 8",
+          "position": 64
+        },
+        {
+          "code": "ARG11",
+          "label": "Jugador 9",
+          "position": 65
+        },
+        {
+          "code": "ARG12",
+          "label": "Jugador 10",
+          "position": 66
+        },
+        {
+          "code": "ARG13",
+          "label": "Jugador 11",
+          "position": 67
+        },
+        {
+          "code": "ARG14",
+          "label": "Jugador 12",
+          "position": 68
+        },
+        {
+          "code": "ARG15",
+          "label": "Jugador 13",
+          "position": 69
+        },
+        {
+          "code": "ARG16",
+          "label": "Jugador 14",
+          "position": 70
+        },
+        {
+          "code": "ARG17",
+          "label": "Jugador 15",
+          "position": 71
+        },
+        {
+          "code": "ARG18",
+          "label": "Jugador 16",
+          "position": 72
+        },
+        {
+          "code": "ARG19",
+          "label": "Jugador 17",
+          "position": 73
+        },
+        {
+          "code": "ARG20",
+          "label": "Jugador 18",
+          "position": 74
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "name": "Australia",
+      "code_prefix": "AUS",
+      "stickers": [
+        {
+          "code": "AUS1",
+          "label": "Escudo",
+          "position": 75
+        },
+        {
+          "code": "AUS2",
+          "label": "Foto grupal",
+          "position": 76
+        },
+        {
+          "code": "AUS3",
+          "label": "Jugador 1",
+          "position": 77
+        },
+        {
+          "code": "AUS4",
+          "label": "Jugador 2",
+          "position": 78
+        },
+        {
+          "code": "AUS5",
+          "label": "Jugador 3",
+          "position": 79
+        },
+        {
+          "code": "AUS6",
+          "label": "Jugador 4",
+          "position": 80
+        },
+        {
+          "code": "AUS7",
+          "label": "Jugador 5",
+          "position": 81
+        },
+        {
+          "code": "AUS8",
+          "label": "Jugador 6",
+          "position": 82
+        },
+        {
+          "code": "AUS9",
+          "label": "Jugador 7",
+          "position": 83
+        },
+        {
+          "code": "AUS10",
+          "label": "Jugador 8",
+          "position": 84
+        },
+        {
+          "code": "AUS11",
+          "label": "Jugador 9",
+          "position": 85
+        },
+        {
+          "code": "AUS12",
+          "label": "Jugador 10",
+          "position": 86
+        },
+        {
+          "code": "AUS13",
+          "label": "Jugador 11",
+          "position": 87
+        },
+        {
+          "code": "AUS14",
+          "label": "Jugador 12",
+          "position": 88
+        },
+        {
+          "code": "AUS15",
+          "label": "Jugador 13",
+          "position": 89
+        },
+        {
+          "code": "AUS16",
+          "label": "Jugador 14",
+          "position": 90
+        },
+        {
+          "code": "AUS17",
+          "label": "Jugador 15",
+          "position": 91
+        },
+        {
+          "code": "AUS18",
+          "label": "Jugador 16",
+          "position": 92
+        },
+        {
+          "code": "AUS19",
+          "label": "Jugador 17",
+          "position": 93
+        },
+        {
+          "code": "AUS20",
+          "label": "Jugador 18",
+          "position": 94
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "name": "Austria",
+      "code_prefix": "AUT",
+      "stickers": [
+        {
+          "code": "AUT1",
+          "label": "Escudo",
+          "position": 95
+        },
+        {
+          "code": "AUT2",
+          "label": "Foto grupal",
+          "position": 96
+        },
+        {
+          "code": "AUT3",
+          "label": "Jugador 1",
+          "position": 97
+        },
+        {
+          "code": "AUT4",
+          "label": "Jugador 2",
+          "position": 98
+        },
+        {
+          "code": "AUT5",
+          "label": "Jugador 3",
+          "position": 99
+        },
+        {
+          "code": "AUT6",
+          "label": "Jugador 4",
+          "position": 100
+        },
+        {
+          "code": "AUT7",
+          "label": "Jugador 5",
+          "position": 101
+        },
+        {
+          "code": "AUT8",
+          "label": "Jugador 6",
+          "position": 102
+        },
+        {
+          "code": "AUT9",
+          "label": "Jugador 7",
+          "position": 103
+        },
+        {
+          "code": "AUT10",
+          "label": "Jugador 8",
+          "position": 104
+        },
+        {
+          "code": "AUT11",
+          "label": "Jugador 9",
+          "position": 105
+        },
+        {
+          "code": "AUT12",
+          "label": "Jugador 10",
+          "position": 106
+        },
+        {
+          "code": "AUT13",
+          "label": "Jugador 11",
+          "position": 107
+        },
+        {
+          "code": "AUT14",
+          "label": "Jugador 12",
+          "position": 108
+        },
+        {
+          "code": "AUT15",
+          "label": "Jugador 13",
+          "position": 109
+        },
+        {
+          "code": "AUT16",
+          "label": "Jugador 14",
+          "position": 110
+        },
+        {
+          "code": "AUT17",
+          "label": "Jugador 15",
+          "position": 111
+        },
+        {
+          "code": "AUT18",
+          "label": "Jugador 16",
+          "position": 112
+        },
+        {
+          "code": "AUT19",
+          "label": "Jugador 17",
+          "position": 113
+        },
+        {
+          "code": "AUT20",
+          "label": "Jugador 18",
+          "position": 114
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "name": "Bélgica",
+      "code_prefix": "BEL",
+      "stickers": [
+        {
+          "code": "BEL1",
+          "label": "Escudo",
+          "position": 115
+        },
+        {
+          "code": "BEL2",
+          "label": "Foto grupal",
+          "position": 116
+        },
+        {
+          "code": "BEL3",
+          "label": "Jugador 1",
+          "position": 117
+        },
+        {
+          "code": "BEL4",
+          "label": "Jugador 2",
+          "position": 118
+        },
+        {
+          "code": "BEL5",
+          "label": "Jugador 3",
+          "position": 119
+        },
+        {
+          "code": "BEL6",
+          "label": "Jugador 4",
+          "position": 120
+        },
+        {
+          "code": "BEL7",
+          "label": "Jugador 5",
+          "position": 121
+        },
+        {
+          "code": "BEL8",
+          "label": "Jugador 6",
+          "position": 122
+        },
+        {
+          "code": "BEL9",
+          "label": "Jugador 7",
+          "position": 123
+        },
+        {
+          "code": "BEL10",
+          "label": "Jugador 8",
+          "position": 124
+        },
+        {
+          "code": "BEL11",
+          "label": "Jugador 9",
+          "position": 125
+        },
+        {
+          "code": "BEL12",
+          "label": "Jugador 10",
+          "position": 126
+        },
+        {
+          "code": "BEL13",
+          "label": "Jugador 11",
+          "position": 127
+        },
+        {
+          "code": "BEL14",
+          "label": "Jugador 12",
+          "position": 128
+        },
+        {
+          "code": "BEL15",
+          "label": "Jugador 13",
+          "position": 129
+        },
+        {
+          "code": "BEL16",
+          "label": "Jugador 14",
+          "position": 130
+        },
+        {
+          "code": "BEL17",
+          "label": "Jugador 15",
+          "position": 131
+        },
+        {
+          "code": "BEL18",
+          "label": "Jugador 16",
+          "position": 132
+        },
+        {
+          "code": "BEL19",
+          "label": "Jugador 17",
+          "position": 133
+        },
+        {
+          "code": "BEL20",
+          "label": "Jugador 18",
+          "position": 134
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "name": "Bosnia y Herzegovina",
+      "code_prefix": "BIH",
+      "stickers": [
+        {
+          "code": "BIH1",
+          "label": "Escudo",
+          "position": 135
+        },
+        {
+          "code": "BIH2",
+          "label": "Foto grupal",
+          "position": 136
+        },
+        {
+          "code": "BIH3",
+          "label": "Jugador 1",
+          "position": 137
+        },
+        {
+          "code": "BIH4",
+          "label": "Jugador 2",
+          "position": 138
+        },
+        {
+          "code": "BIH5",
+          "label": "Jugador 3",
+          "position": 139
+        },
+        {
+          "code": "BIH6",
+          "label": "Jugador 4",
+          "position": 140
+        },
+        {
+          "code": "BIH7",
+          "label": "Jugador 5",
+          "position": 141
+        },
+        {
+          "code": "BIH8",
+          "label": "Jugador 6",
+          "position": 142
+        },
+        {
+          "code": "BIH9",
+          "label": "Jugador 7",
+          "position": 143
+        },
+        {
+          "code": "BIH10",
+          "label": "Jugador 8",
+          "position": 144
+        },
+        {
+          "code": "BIH11",
+          "label": "Jugador 9",
+          "position": 145
+        },
+        {
+          "code": "BIH12",
+          "label": "Jugador 10",
+          "position": 146
+        },
+        {
+          "code": "BIH13",
+          "label": "Jugador 11",
+          "position": 147
+        },
+        {
+          "code": "BIH14",
+          "label": "Jugador 12",
+          "position": 148
+        },
+        {
+          "code": "BIH15",
+          "label": "Jugador 13",
+          "position": 149
+        },
+        {
+          "code": "BIH16",
+          "label": "Jugador 14",
+          "position": 150
+        },
+        {
+          "code": "BIH17",
+          "label": "Jugador 15",
+          "position": 151
+        },
+        {
+          "code": "BIH18",
+          "label": "Jugador 16",
+          "position": 152
+        },
+        {
+          "code": "BIH19",
+          "label": "Jugador 17",
+          "position": 153
+        },
+        {
+          "code": "BIH20",
+          "label": "Jugador 18",
+          "position": 154
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "name": "Brasil",
+      "code_prefix": "BRA",
+      "stickers": [
+        {
+          "code": "BRA1",
+          "label": "Escudo",
+          "position": 155
+        },
+        {
+          "code": "BRA2",
+          "label": "Foto grupal",
+          "position": 156
+        },
+        {
+          "code": "BRA3",
+          "label": "Jugador 1",
+          "position": 157
+        },
+        {
+          "code": "BRA4",
+          "label": "Jugador 2",
+          "position": 158
+        },
+        {
+          "code": "BRA5",
+          "label": "Jugador 3",
+          "position": 159
+        },
+        {
+          "code": "BRA6",
+          "label": "Jugador 4",
+          "position": 160
+        },
+        {
+          "code": "BRA7",
+          "label": "Jugador 5",
+          "position": 161
+        },
+        {
+          "code": "BRA8",
+          "label": "Jugador 6",
+          "position": 162
+        },
+        {
+          "code": "BRA9",
+          "label": "Jugador 7",
+          "position": 163
+        },
+        {
+          "code": "BRA10",
+          "label": "Jugador 8",
+          "position": 164
+        },
+        {
+          "code": "BRA11",
+          "label": "Jugador 9",
+          "position": 165
+        },
+        {
+          "code": "BRA12",
+          "label": "Jugador 10",
+          "position": 166
+        },
+        {
+          "code": "BRA13",
+          "label": "Jugador 11",
+          "position": 167
+        },
+        {
+          "code": "BRA14",
+          "label": "Jugador 12",
+          "position": 168
+        },
+        {
+          "code": "BRA15",
+          "label": "Jugador 13",
+          "position": 169
+        },
+        {
+          "code": "BRA16",
+          "label": "Jugador 14",
+          "position": 170
+        },
+        {
+          "code": "BRA17",
+          "label": "Jugador 15",
+          "position": 171
+        },
+        {
+          "code": "BRA18",
+          "label": "Jugador 16",
+          "position": 172
+        },
+        {
+          "code": "BRA19",
+          "label": "Jugador 17",
+          "position": 173
+        },
+        {
+          "code": "BRA20",
+          "label": "Jugador 18",
+          "position": 174
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "name": "Canadá",
+      "code_prefix": "CAN",
+      "stickers": [
+        {
+          "code": "CAN1",
+          "label": "Escudo",
+          "position": 175
+        },
+        {
+          "code": "CAN2",
+          "label": "Foto grupal",
+          "position": 176
+        },
+        {
+          "code": "CAN3",
+          "label": "Jugador 1",
+          "position": 177
+        },
+        {
+          "code": "CAN4",
+          "label": "Jugador 2",
+          "position": 178
+        },
+        {
+          "code": "CAN5",
+          "label": "Jugador 3",
+          "position": 179
+        },
+        {
+          "code": "CAN6",
+          "label": "Jugador 4",
+          "position": 180
+        },
+        {
+          "code": "CAN7",
+          "label": "Jugador 5",
+          "position": 181
+        },
+        {
+          "code": "CAN8",
+          "label": "Jugador 6",
+          "position": 182
+        },
+        {
+          "code": "CAN9",
+          "label": "Jugador 7",
+          "position": 183
+        },
+        {
+          "code": "CAN10",
+          "label": "Jugador 8",
+          "position": 184
+        },
+        {
+          "code": "CAN11",
+          "label": "Jugador 9",
+          "position": 185
+        },
+        {
+          "code": "CAN12",
+          "label": "Jugador 10",
+          "position": 186
+        },
+        {
+          "code": "CAN13",
+          "label": "Jugador 11",
+          "position": 187
+        },
+        {
+          "code": "CAN14",
+          "label": "Jugador 12",
+          "position": 188
+        },
+        {
+          "code": "CAN15",
+          "label": "Jugador 13",
+          "position": 189
+        },
+        {
+          "code": "CAN16",
+          "label": "Jugador 14",
+          "position": 190
+        },
+        {
+          "code": "CAN17",
+          "label": "Jugador 15",
+          "position": 191
+        },
+        {
+          "code": "CAN18",
+          "label": "Jugador 16",
+          "position": 192
+        },
+        {
+          "code": "CAN19",
+          "label": "Jugador 17",
+          "position": 193
+        },
+        {
+          "code": "CAN20",
+          "label": "Jugador 18",
+          "position": 194
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "name": "Costa de Marfil",
+      "code_prefix": "CIV",
+      "stickers": [
+        {
+          "code": "CIV1",
+          "label": "Escudo",
+          "position": 195
+        },
+        {
+          "code": "CIV2",
+          "label": "Foto grupal",
+          "position": 196
+        },
+        {
+          "code": "CIV3",
+          "label": "Jugador 1",
+          "position": 197
+        },
+        {
+          "code": "CIV4",
+          "label": "Jugador 2",
+          "position": 198
+        },
+        {
+          "code": "CIV5",
+          "label": "Jugador 3",
+          "position": 199
+        },
+        {
+          "code": "CIV6",
+          "label": "Jugador 4",
+          "position": 200
+        },
+        {
+          "code": "CIV7",
+          "label": "Jugador 5",
+          "position": 201
+        },
+        {
+          "code": "CIV8",
+          "label": "Jugador 6",
+          "position": 202
+        },
+        {
+          "code": "CIV9",
+          "label": "Jugador 7",
+          "position": 203
+        },
+        {
+          "code": "CIV10",
+          "label": "Jugador 8",
+          "position": 204
+        },
+        {
+          "code": "CIV11",
+          "label": "Jugador 9",
+          "position": 205
+        },
+        {
+          "code": "CIV12",
+          "label": "Jugador 10",
+          "position": 206
+        },
+        {
+          "code": "CIV13",
+          "label": "Jugador 11",
+          "position": 207
+        },
+        {
+          "code": "CIV14",
+          "label": "Jugador 12",
+          "position": 208
+        },
+        {
+          "code": "CIV15",
+          "label": "Jugador 13",
+          "position": 209
+        },
+        {
+          "code": "CIV16",
+          "label": "Jugador 14",
+          "position": 210
+        },
+        {
+          "code": "CIV17",
+          "label": "Jugador 15",
+          "position": 211
+        },
+        {
+          "code": "CIV18",
+          "label": "Jugador 16",
+          "position": 212
+        },
+        {
+          "code": "CIV19",
+          "label": "Jugador 17",
+          "position": 213
+        },
+        {
+          "code": "CIV20",
+          "label": "Jugador 18",
+          "position": 214
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "name": "Congo DR",
+      "code_prefix": "COD",
+      "stickers": [
+        {
+          "code": "COD1",
+          "label": "Escudo",
+          "position": 215
+        },
+        {
+          "code": "COD2",
+          "label": "Foto grupal",
+          "position": 216
+        },
+        {
+          "code": "COD3",
+          "label": "Jugador 1",
+          "position": 217
+        },
+        {
+          "code": "COD4",
+          "label": "Jugador 2",
+          "position": 218
+        },
+        {
+          "code": "COD5",
+          "label": "Jugador 3",
+          "position": 219
+        },
+        {
+          "code": "COD6",
+          "label": "Jugador 4",
+          "position": 220
+        },
+        {
+          "code": "COD7",
+          "label": "Jugador 5",
+          "position": 221
+        },
+        {
+          "code": "COD8",
+          "label": "Jugador 6",
+          "position": 222
+        },
+        {
+          "code": "COD9",
+          "label": "Jugador 7",
+          "position": 223
+        },
+        {
+          "code": "COD10",
+          "label": "Jugador 8",
+          "position": 224
+        },
+        {
+          "code": "COD11",
+          "label": "Jugador 9",
+          "position": 225
+        },
+        {
+          "code": "COD12",
+          "label": "Jugador 10",
+          "position": 226
+        },
+        {
+          "code": "COD13",
+          "label": "Jugador 11",
+          "position": 227
+        },
+        {
+          "code": "COD14",
+          "label": "Jugador 12",
+          "position": 228
+        },
+        {
+          "code": "COD15",
+          "label": "Jugador 13",
+          "position": 229
+        },
+        {
+          "code": "COD16",
+          "label": "Jugador 14",
+          "position": 230
+        },
+        {
+          "code": "COD17",
+          "label": "Jugador 15",
+          "position": 231
+        },
+        {
+          "code": "COD18",
+          "label": "Jugador 16",
+          "position": 232
+        },
+        {
+          "code": "COD19",
+          "label": "Jugador 17",
+          "position": 233
+        },
+        {
+          "code": "COD20",
+          "label": "Jugador 18",
+          "position": 234
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "name": "Colombia",
+      "code_prefix": "COL",
+      "stickers": [
+        {
+          "code": "COL1",
+          "label": "Escudo",
+          "position": 235
+        },
+        {
+          "code": "COL2",
+          "label": "Foto grupal",
+          "position": 236
+        },
+        {
+          "code": "COL3",
+          "label": "Jugador 1",
+          "position": 237
+        },
+        {
+          "code": "COL4",
+          "label": "Jugador 2",
+          "position": 238
+        },
+        {
+          "code": "COL5",
+          "label": "Jugador 3",
+          "position": 239
+        },
+        {
+          "code": "COL6",
+          "label": "Jugador 4",
+          "position": 240
+        },
+        {
+          "code": "COL7",
+          "label": "Jugador 5",
+          "position": 241
+        },
+        {
+          "code": "COL8",
+          "label": "Jugador 6",
+          "position": 242
+        },
+        {
+          "code": "COL9",
+          "label": "Jugador 7",
+          "position": 243
+        },
+        {
+          "code": "COL10",
+          "label": "Jugador 8",
+          "position": 244
+        },
+        {
+          "code": "COL11",
+          "label": "Jugador 9",
+          "position": 245
+        },
+        {
+          "code": "COL12",
+          "label": "Jugador 10",
+          "position": 246
+        },
+        {
+          "code": "COL13",
+          "label": "Jugador 11",
+          "position": 247
+        },
+        {
+          "code": "COL14",
+          "label": "Jugador 12",
+          "position": 248
+        },
+        {
+          "code": "COL15",
+          "label": "Jugador 13",
+          "position": 249
+        },
+        {
+          "code": "COL16",
+          "label": "Jugador 14",
+          "position": 250
+        },
+        {
+          "code": "COL17",
+          "label": "Jugador 15",
+          "position": 251
+        },
+        {
+          "code": "COL18",
+          "label": "Jugador 16",
+          "position": 252
+        },
+        {
+          "code": "COL19",
+          "label": "Jugador 17",
+          "position": 253
+        },
+        {
+          "code": "COL20",
+          "label": "Jugador 18",
+          "position": 254
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "name": "Cabo Verde",
+      "code_prefix": "CPV",
+      "stickers": [
+        {
+          "code": "CPV1",
+          "label": "Escudo",
+          "position": 255
+        },
+        {
+          "code": "CPV2",
+          "label": "Foto grupal",
+          "position": 256
+        },
+        {
+          "code": "CPV3",
+          "label": "Jugador 1",
+          "position": 257
+        },
+        {
+          "code": "CPV4",
+          "label": "Jugador 2",
+          "position": 258
+        },
+        {
+          "code": "CPV5",
+          "label": "Jugador 3",
+          "position": 259
+        },
+        {
+          "code": "CPV6",
+          "label": "Jugador 4",
+          "position": 260
+        },
+        {
+          "code": "CPV7",
+          "label": "Jugador 5",
+          "position": 261
+        },
+        {
+          "code": "CPV8",
+          "label": "Jugador 6",
+          "position": 262
+        },
+        {
+          "code": "CPV9",
+          "label": "Jugador 7",
+          "position": 263
+        },
+        {
+          "code": "CPV10",
+          "label": "Jugador 8",
+          "position": 264
+        },
+        {
+          "code": "CPV11",
+          "label": "Jugador 9",
+          "position": 265
+        },
+        {
+          "code": "CPV12",
+          "label": "Jugador 10",
+          "position": 266
+        },
+        {
+          "code": "CPV13",
+          "label": "Jugador 11",
+          "position": 267
+        },
+        {
+          "code": "CPV14",
+          "label": "Jugador 12",
+          "position": 268
+        },
+        {
+          "code": "CPV15",
+          "label": "Jugador 13",
+          "position": 269
+        },
+        {
+          "code": "CPV16",
+          "label": "Jugador 14",
+          "position": 270
+        },
+        {
+          "code": "CPV17",
+          "label": "Jugador 15",
+          "position": 271
+        },
+        {
+          "code": "CPV18",
+          "label": "Jugador 16",
+          "position": 272
+        },
+        {
+          "code": "CPV19",
+          "label": "Jugador 17",
+          "position": 273
+        },
+        {
+          "code": "CPV20",
+          "label": "Jugador 18",
+          "position": 274
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "name": "Croacia",
+      "code_prefix": "CRO",
+      "stickers": [
+        {
+          "code": "CRO1",
+          "label": "Escudo",
+          "position": 275
+        },
+        {
+          "code": "CRO2",
+          "label": "Foto grupal",
+          "position": 276
+        },
+        {
+          "code": "CRO3",
+          "label": "Jugador 1",
+          "position": 277
+        },
+        {
+          "code": "CRO4",
+          "label": "Jugador 2",
+          "position": 278
+        },
+        {
+          "code": "CRO5",
+          "label": "Jugador 3",
+          "position": 279
+        },
+        {
+          "code": "CRO6",
+          "label": "Jugador 4",
+          "position": 280
+        },
+        {
+          "code": "CRO7",
+          "label": "Jugador 5",
+          "position": 281
+        },
+        {
+          "code": "CRO8",
+          "label": "Jugador 6",
+          "position": 282
+        },
+        {
+          "code": "CRO9",
+          "label": "Jugador 7",
+          "position": 283
+        },
+        {
+          "code": "CRO10",
+          "label": "Jugador 8",
+          "position": 284
+        },
+        {
+          "code": "CRO11",
+          "label": "Jugador 9",
+          "position": 285
+        },
+        {
+          "code": "CRO12",
+          "label": "Jugador 10",
+          "position": 286
+        },
+        {
+          "code": "CRO13",
+          "label": "Jugador 11",
+          "position": 287
+        },
+        {
+          "code": "CRO14",
+          "label": "Jugador 12",
+          "position": 288
+        },
+        {
+          "code": "CRO15",
+          "label": "Jugador 13",
+          "position": 289
+        },
+        {
+          "code": "CRO16",
+          "label": "Jugador 14",
+          "position": 290
+        },
+        {
+          "code": "CRO17",
+          "label": "Jugador 15",
+          "position": 291
+        },
+        {
+          "code": "CRO18",
+          "label": "Jugador 16",
+          "position": 292
+        },
+        {
+          "code": "CRO19",
+          "label": "Jugador 17",
+          "position": 293
+        },
+        {
+          "code": "CRO20",
+          "label": "Jugador 18",
+          "position": 294
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "name": "Curazao",
+      "code_prefix": "CUW",
+      "stickers": [
+        {
+          "code": "CUW1",
+          "label": "Escudo",
+          "position": 295
+        },
+        {
+          "code": "CUW2",
+          "label": "Foto grupal",
+          "position": 296
+        },
+        {
+          "code": "CUW3",
+          "label": "Jugador 1",
+          "position": 297
+        },
+        {
+          "code": "CUW4",
+          "label": "Jugador 2",
+          "position": 298
+        },
+        {
+          "code": "CUW5",
+          "label": "Jugador 3",
+          "position": 299
+        },
+        {
+          "code": "CUW6",
+          "label": "Jugador 4",
+          "position": 300
+        },
+        {
+          "code": "CUW7",
+          "label": "Jugador 5",
+          "position": 301
+        },
+        {
+          "code": "CUW8",
+          "label": "Jugador 6",
+          "position": 302
+        },
+        {
+          "code": "CUW9",
+          "label": "Jugador 7",
+          "position": 303
+        },
+        {
+          "code": "CUW10",
+          "label": "Jugador 8",
+          "position": 304
+        },
+        {
+          "code": "CUW11",
+          "label": "Jugador 9",
+          "position": 305
+        },
+        {
+          "code": "CUW12",
+          "label": "Jugador 10",
+          "position": 306
+        },
+        {
+          "code": "CUW13",
+          "label": "Jugador 11",
+          "position": 307
+        },
+        {
+          "code": "CUW14",
+          "label": "Jugador 12",
+          "position": 308
+        },
+        {
+          "code": "CUW15",
+          "label": "Jugador 13",
+          "position": 309
+        },
+        {
+          "code": "CUW16",
+          "label": "Jugador 14",
+          "position": 310
+        },
+        {
+          "code": "CUW17",
+          "label": "Jugador 15",
+          "position": 311
+        },
+        {
+          "code": "CUW18",
+          "label": "Jugador 16",
+          "position": 312
+        },
+        {
+          "code": "CUW19",
+          "label": "Jugador 17",
+          "position": 313
+        },
+        {
+          "code": "CUW20",
+          "label": "Jugador 18",
+          "position": 314
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "name": "Chequia",
+      "code_prefix": "CZE",
+      "stickers": [
+        {
+          "code": "CZE1",
+          "label": "Escudo",
+          "position": 315
+        },
+        {
+          "code": "CZE2",
+          "label": "Foto grupal",
+          "position": 316
+        },
+        {
+          "code": "CZE3",
+          "label": "Jugador 1",
+          "position": 317
+        },
+        {
+          "code": "CZE4",
+          "label": "Jugador 2",
+          "position": 318
+        },
+        {
+          "code": "CZE5",
+          "label": "Jugador 3",
+          "position": 319
+        },
+        {
+          "code": "CZE6",
+          "label": "Jugador 4",
+          "position": 320
+        },
+        {
+          "code": "CZE7",
+          "label": "Jugador 5",
+          "position": 321
+        },
+        {
+          "code": "CZE8",
+          "label": "Jugador 6",
+          "position": 322
+        },
+        {
+          "code": "CZE9",
+          "label": "Jugador 7",
+          "position": 323
+        },
+        {
+          "code": "CZE10",
+          "label": "Jugador 8",
+          "position": 324
+        },
+        {
+          "code": "CZE11",
+          "label": "Jugador 9",
+          "position": 325
+        },
+        {
+          "code": "CZE12",
+          "label": "Jugador 10",
+          "position": 326
+        },
+        {
+          "code": "CZE13",
+          "label": "Jugador 11",
+          "position": 327
+        },
+        {
+          "code": "CZE14",
+          "label": "Jugador 12",
+          "position": 328
+        },
+        {
+          "code": "CZE15",
+          "label": "Jugador 13",
+          "position": 329
+        },
+        {
+          "code": "CZE16",
+          "label": "Jugador 14",
+          "position": 330
+        },
+        {
+          "code": "CZE17",
+          "label": "Jugador 15",
+          "position": 331
+        },
+        {
+          "code": "CZE18",
+          "label": "Jugador 16",
+          "position": 332
+        },
+        {
+          "code": "CZE19",
+          "label": "Jugador 17",
+          "position": 333
+        },
+        {
+          "code": "CZE20",
+          "label": "Jugador 18",
+          "position": 334
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "name": "Ecuador",
+      "code_prefix": "ECU",
+      "stickers": [
+        {
+          "code": "ECU1",
+          "label": "Escudo",
+          "position": 335
+        },
+        {
+          "code": "ECU2",
+          "label": "Foto grupal",
+          "position": 336
+        },
+        {
+          "code": "ECU3",
+          "label": "Jugador 1",
+          "position": 337
+        },
+        {
+          "code": "ECU4",
+          "label": "Jugador 2",
+          "position": 338
+        },
+        {
+          "code": "ECU5",
+          "label": "Jugador 3",
+          "position": 339
+        },
+        {
+          "code": "ECU6",
+          "label": "Jugador 4",
+          "position": 340
+        },
+        {
+          "code": "ECU7",
+          "label": "Jugador 5",
+          "position": 341
+        },
+        {
+          "code": "ECU8",
+          "label": "Jugador 6",
+          "position": 342
+        },
+        {
+          "code": "ECU9",
+          "label": "Jugador 7",
+          "position": 343
+        },
+        {
+          "code": "ECU10",
+          "label": "Jugador 8",
+          "position": 344
+        },
+        {
+          "code": "ECU11",
+          "label": "Jugador 9",
+          "position": 345
+        },
+        {
+          "code": "ECU12",
+          "label": "Jugador 10",
+          "position": 346
+        },
+        {
+          "code": "ECU13",
+          "label": "Jugador 11",
+          "position": 347
+        },
+        {
+          "code": "ECU14",
+          "label": "Jugador 12",
+          "position": 348
+        },
+        {
+          "code": "ECU15",
+          "label": "Jugador 13",
+          "position": 349
+        },
+        {
+          "code": "ECU16",
+          "label": "Jugador 14",
+          "position": 350
+        },
+        {
+          "code": "ECU17",
+          "label": "Jugador 15",
+          "position": 351
+        },
+        {
+          "code": "ECU18",
+          "label": "Jugador 16",
+          "position": 352
+        },
+        {
+          "code": "ECU19",
+          "label": "Jugador 17",
+          "position": 353
+        },
+        {
+          "code": "ECU20",
+          "label": "Jugador 18",
+          "position": 354
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "name": "Egipto",
+      "code_prefix": "EGY",
+      "stickers": [
+        {
+          "code": "EGY1",
+          "label": "Escudo",
+          "position": 355
+        },
+        {
+          "code": "EGY2",
+          "label": "Foto grupal",
+          "position": 356
+        },
+        {
+          "code": "EGY3",
+          "label": "Jugador 1",
+          "position": 357
+        },
+        {
+          "code": "EGY4",
+          "label": "Jugador 2",
+          "position": 358
+        },
+        {
+          "code": "EGY5",
+          "label": "Jugador 3",
+          "position": 359
+        },
+        {
+          "code": "EGY6",
+          "label": "Jugador 4",
+          "position": 360
+        },
+        {
+          "code": "EGY7",
+          "label": "Jugador 5",
+          "position": 361
+        },
+        {
+          "code": "EGY8",
+          "label": "Jugador 6",
+          "position": 362
+        },
+        {
+          "code": "EGY9",
+          "label": "Jugador 7",
+          "position": 363
+        },
+        {
+          "code": "EGY10",
+          "label": "Jugador 8",
+          "position": 364
+        },
+        {
+          "code": "EGY11",
+          "label": "Jugador 9",
+          "position": 365
+        },
+        {
+          "code": "EGY12",
+          "label": "Jugador 10",
+          "position": 366
+        },
+        {
+          "code": "EGY13",
+          "label": "Jugador 11",
+          "position": 367
+        },
+        {
+          "code": "EGY14",
+          "label": "Jugador 12",
+          "position": 368
+        },
+        {
+          "code": "EGY15",
+          "label": "Jugador 13",
+          "position": 369
+        },
+        {
+          "code": "EGY16",
+          "label": "Jugador 14",
+          "position": 370
+        },
+        {
+          "code": "EGY17",
+          "label": "Jugador 15",
+          "position": 371
+        },
+        {
+          "code": "EGY18",
+          "label": "Jugador 16",
+          "position": 372
+        },
+        {
+          "code": "EGY19",
+          "label": "Jugador 17",
+          "position": 373
+        },
+        {
+          "code": "EGY20",
+          "label": "Jugador 18",
+          "position": 374
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "name": "Inglaterra",
+      "code_prefix": "ENG",
+      "stickers": [
+        {
+          "code": "ENG1",
+          "label": "Escudo",
+          "position": 375
+        },
+        {
+          "code": "ENG2",
+          "label": "Foto grupal",
+          "position": 376
+        },
+        {
+          "code": "ENG3",
+          "label": "Jugador 1",
+          "position": 377
+        },
+        {
+          "code": "ENG4",
+          "label": "Jugador 2",
+          "position": 378
+        },
+        {
+          "code": "ENG5",
+          "label": "Jugador 3",
+          "position": 379
+        },
+        {
+          "code": "ENG6",
+          "label": "Jugador 4",
+          "position": 380
+        },
+        {
+          "code": "ENG7",
+          "label": "Jugador 5",
+          "position": 381
+        },
+        {
+          "code": "ENG8",
+          "label": "Jugador 6",
+          "position": 382
+        },
+        {
+          "code": "ENG9",
+          "label": "Jugador 7",
+          "position": 383
+        },
+        {
+          "code": "ENG10",
+          "label": "Jugador 8",
+          "position": 384
+        },
+        {
+          "code": "ENG11",
+          "label": "Jugador 9",
+          "position": 385
+        },
+        {
+          "code": "ENG12",
+          "label": "Jugador 10",
+          "position": 386
+        },
+        {
+          "code": "ENG13",
+          "label": "Jugador 11",
+          "position": 387
+        },
+        {
+          "code": "ENG14",
+          "label": "Jugador 12",
+          "position": 388
+        },
+        {
+          "code": "ENG15",
+          "label": "Jugador 13",
+          "position": 389
+        },
+        {
+          "code": "ENG16",
+          "label": "Jugador 14",
+          "position": 390
+        },
+        {
+          "code": "ENG17",
+          "label": "Jugador 15",
+          "position": 391
+        },
+        {
+          "code": "ENG18",
+          "label": "Jugador 16",
+          "position": 392
+        },
+        {
+          "code": "ENG19",
+          "label": "Jugador 17",
+          "position": 393
+        },
+        {
+          "code": "ENG20",
+          "label": "Jugador 18",
+          "position": 394
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "name": "España",
+      "code_prefix": "ESP",
+      "stickers": [
+        {
+          "code": "ESP1",
+          "label": "Escudo",
+          "position": 395
+        },
+        {
+          "code": "ESP2",
+          "label": "Foto grupal",
+          "position": 396
+        },
+        {
+          "code": "ESP3",
+          "label": "Jugador 1",
+          "position": 397
+        },
+        {
+          "code": "ESP4",
+          "label": "Jugador 2",
+          "position": 398
+        },
+        {
+          "code": "ESP5",
+          "label": "Jugador 3",
+          "position": 399
+        },
+        {
+          "code": "ESP6",
+          "label": "Jugador 4",
+          "position": 400
+        },
+        {
+          "code": "ESP7",
+          "label": "Jugador 5",
+          "position": 401
+        },
+        {
+          "code": "ESP8",
+          "label": "Jugador 6",
+          "position": 402
+        },
+        {
+          "code": "ESP9",
+          "label": "Jugador 7",
+          "position": 403
+        },
+        {
+          "code": "ESP10",
+          "label": "Jugador 8",
+          "position": 404
+        },
+        {
+          "code": "ESP11",
+          "label": "Jugador 9",
+          "position": 405
+        },
+        {
+          "code": "ESP12",
+          "label": "Jugador 10",
+          "position": 406
+        },
+        {
+          "code": "ESP13",
+          "label": "Jugador 11",
+          "position": 407
+        },
+        {
+          "code": "ESP14",
+          "label": "Jugador 12",
+          "position": 408
+        },
+        {
+          "code": "ESP15",
+          "label": "Jugador 13",
+          "position": 409
+        },
+        {
+          "code": "ESP16",
+          "label": "Jugador 14",
+          "position": 410
+        },
+        {
+          "code": "ESP17",
+          "label": "Jugador 15",
+          "position": 411
+        },
+        {
+          "code": "ESP18",
+          "label": "Jugador 16",
+          "position": 412
+        },
+        {
+          "code": "ESP19",
+          "label": "Jugador 17",
+          "position": 413
+        },
+        {
+          "code": "ESP20",
+          "label": "Jugador 18",
+          "position": 414
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "name": "Francia",
+      "code_prefix": "FRA",
+      "stickers": [
+        {
+          "code": "FRA1",
+          "label": "Escudo",
+          "position": 415
+        },
+        {
+          "code": "FRA2",
+          "label": "Foto grupal",
+          "position": 416
+        },
+        {
+          "code": "FRA3",
+          "label": "Jugador 1",
+          "position": 417
+        },
+        {
+          "code": "FRA4",
+          "label": "Jugador 2",
+          "position": 418
+        },
+        {
+          "code": "FRA5",
+          "label": "Jugador 3",
+          "position": 419
+        },
+        {
+          "code": "FRA6",
+          "label": "Jugador 4",
+          "position": 420
+        },
+        {
+          "code": "FRA7",
+          "label": "Jugador 5",
+          "position": 421
+        },
+        {
+          "code": "FRA8",
+          "label": "Jugador 6",
+          "position": 422
+        },
+        {
+          "code": "FRA9",
+          "label": "Jugador 7",
+          "position": 423
+        },
+        {
+          "code": "FRA10",
+          "label": "Jugador 8",
+          "position": 424
+        },
+        {
+          "code": "FRA11",
+          "label": "Jugador 9",
+          "position": 425
+        },
+        {
+          "code": "FRA12",
+          "label": "Jugador 10",
+          "position": 426
+        },
+        {
+          "code": "FRA13",
+          "label": "Jugador 11",
+          "position": 427
+        },
+        {
+          "code": "FRA14",
+          "label": "Jugador 12",
+          "position": 428
+        },
+        {
+          "code": "FRA15",
+          "label": "Jugador 13",
+          "position": 429
+        },
+        {
+          "code": "FRA16",
+          "label": "Jugador 14",
+          "position": 430
+        },
+        {
+          "code": "FRA17",
+          "label": "Jugador 15",
+          "position": 431
+        },
+        {
+          "code": "FRA18",
+          "label": "Jugador 16",
+          "position": 432
+        },
+        {
+          "code": "FRA19",
+          "label": "Jugador 17",
+          "position": 433
+        },
+        {
+          "code": "FRA20",
+          "label": "Jugador 18",
+          "position": 434
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "name": "Alemania",
+      "code_prefix": "GER",
+      "stickers": [
+        {
+          "code": "GER1",
+          "label": "Escudo",
+          "position": 435
+        },
+        {
+          "code": "GER2",
+          "label": "Foto grupal",
+          "position": 436
+        },
+        {
+          "code": "GER3",
+          "label": "Jugador 1",
+          "position": 437
+        },
+        {
+          "code": "GER4",
+          "label": "Jugador 2",
+          "position": 438
+        },
+        {
+          "code": "GER5",
+          "label": "Jugador 3",
+          "position": 439
+        },
+        {
+          "code": "GER6",
+          "label": "Jugador 4",
+          "position": 440
+        },
+        {
+          "code": "GER7",
+          "label": "Jugador 5",
+          "position": 441
+        },
+        {
+          "code": "GER8",
+          "label": "Jugador 6",
+          "position": 442
+        },
+        {
+          "code": "GER9",
+          "label": "Jugador 7",
+          "position": 443
+        },
+        {
+          "code": "GER10",
+          "label": "Jugador 8",
+          "position": 444
+        },
+        {
+          "code": "GER11",
+          "label": "Jugador 9",
+          "position": 445
+        },
+        {
+          "code": "GER12",
+          "label": "Jugador 10",
+          "position": 446
+        },
+        {
+          "code": "GER13",
+          "label": "Jugador 11",
+          "position": 447
+        },
+        {
+          "code": "GER14",
+          "label": "Jugador 12",
+          "position": 448
+        },
+        {
+          "code": "GER15",
+          "label": "Jugador 13",
+          "position": 449
+        },
+        {
+          "code": "GER16",
+          "label": "Jugador 14",
+          "position": 450
+        },
+        {
+          "code": "GER17",
+          "label": "Jugador 15",
+          "position": 451
+        },
+        {
+          "code": "GER18",
+          "label": "Jugador 16",
+          "position": 452
+        },
+        {
+          "code": "GER19",
+          "label": "Jugador 17",
+          "position": 453
+        },
+        {
+          "code": "GER20",
+          "label": "Jugador 18",
+          "position": 454
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "name": "Ghana",
+      "code_prefix": "GHA",
+      "stickers": [
+        {
+          "code": "GHA1",
+          "label": "Escudo",
+          "position": 455
+        },
+        {
+          "code": "GHA2",
+          "label": "Foto grupal",
+          "position": 456
+        },
+        {
+          "code": "GHA3",
+          "label": "Jugador 1",
+          "position": 457
+        },
+        {
+          "code": "GHA4",
+          "label": "Jugador 2",
+          "position": 458
+        },
+        {
+          "code": "GHA5",
+          "label": "Jugador 3",
+          "position": 459
+        },
+        {
+          "code": "GHA6",
+          "label": "Jugador 4",
+          "position": 460
+        },
+        {
+          "code": "GHA7",
+          "label": "Jugador 5",
+          "position": 461
+        },
+        {
+          "code": "GHA8",
+          "label": "Jugador 6",
+          "position": 462
+        },
+        {
+          "code": "GHA9",
+          "label": "Jugador 7",
+          "position": 463
+        },
+        {
+          "code": "GHA10",
+          "label": "Jugador 8",
+          "position": 464
+        },
+        {
+          "code": "GHA11",
+          "label": "Jugador 9",
+          "position": 465
+        },
+        {
+          "code": "GHA12",
+          "label": "Jugador 10",
+          "position": 466
+        },
+        {
+          "code": "GHA13",
+          "label": "Jugador 11",
+          "position": 467
+        },
+        {
+          "code": "GHA14",
+          "label": "Jugador 12",
+          "position": 468
+        },
+        {
+          "code": "GHA15",
+          "label": "Jugador 13",
+          "position": 469
+        },
+        {
+          "code": "GHA16",
+          "label": "Jugador 14",
+          "position": 470
+        },
+        {
+          "code": "GHA17",
+          "label": "Jugador 15",
+          "position": 471
+        },
+        {
+          "code": "GHA18",
+          "label": "Jugador 16",
+          "position": 472
+        },
+        {
+          "code": "GHA19",
+          "label": "Jugador 17",
+          "position": 473
+        },
+        {
+          "code": "GHA20",
+          "label": "Jugador 18",
+          "position": 474
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "name": "Haití",
+      "code_prefix": "HAI",
+      "stickers": [
+        {
+          "code": "HAI1",
+          "label": "Escudo",
+          "position": 475
+        },
+        {
+          "code": "HAI2",
+          "label": "Foto grupal",
+          "position": 476
+        },
+        {
+          "code": "HAI3",
+          "label": "Jugador 1",
+          "position": 477
+        },
+        {
+          "code": "HAI4",
+          "label": "Jugador 2",
+          "position": 478
+        },
+        {
+          "code": "HAI5",
+          "label": "Jugador 3",
+          "position": 479
+        },
+        {
+          "code": "HAI6",
+          "label": "Jugador 4",
+          "position": 480
+        },
+        {
+          "code": "HAI7",
+          "label": "Jugador 5",
+          "position": 481
+        },
+        {
+          "code": "HAI8",
+          "label": "Jugador 6",
+          "position": 482
+        },
+        {
+          "code": "HAI9",
+          "label": "Jugador 7",
+          "position": 483
+        },
+        {
+          "code": "HAI10",
+          "label": "Jugador 8",
+          "position": 484
+        },
+        {
+          "code": "HAI11",
+          "label": "Jugador 9",
+          "position": 485
+        },
+        {
+          "code": "HAI12",
+          "label": "Jugador 10",
+          "position": 486
+        },
+        {
+          "code": "HAI13",
+          "label": "Jugador 11",
+          "position": 487
+        },
+        {
+          "code": "HAI14",
+          "label": "Jugador 12",
+          "position": 488
+        },
+        {
+          "code": "HAI15",
+          "label": "Jugador 13",
+          "position": 489
+        },
+        {
+          "code": "HAI16",
+          "label": "Jugador 14",
+          "position": 490
+        },
+        {
+          "code": "HAI17",
+          "label": "Jugador 15",
+          "position": 491
+        },
+        {
+          "code": "HAI18",
+          "label": "Jugador 16",
+          "position": 492
+        },
+        {
+          "code": "HAI19",
+          "label": "Jugador 17",
+          "position": 493
+        },
+        {
+          "code": "HAI20",
+          "label": "Jugador 18",
+          "position": 494
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "name": "Irán",
+      "code_prefix": "IRN",
+      "stickers": [
+        {
+          "code": "IRN1",
+          "label": "Escudo",
+          "position": 495
+        },
+        {
+          "code": "IRN2",
+          "label": "Foto grupal",
+          "position": 496
+        },
+        {
+          "code": "IRN3",
+          "label": "Jugador 1",
+          "position": 497
+        },
+        {
+          "code": "IRN4",
+          "label": "Jugador 2",
+          "position": 498
+        },
+        {
+          "code": "IRN5",
+          "label": "Jugador 3",
+          "position": 499
+        },
+        {
+          "code": "IRN6",
+          "label": "Jugador 4",
+          "position": 500
+        },
+        {
+          "code": "IRN7",
+          "label": "Jugador 5",
+          "position": 501
+        },
+        {
+          "code": "IRN8",
+          "label": "Jugador 6",
+          "position": 502
+        },
+        {
+          "code": "IRN9",
+          "label": "Jugador 7",
+          "position": 503
+        },
+        {
+          "code": "IRN10",
+          "label": "Jugador 8",
+          "position": 504
+        },
+        {
+          "code": "IRN11",
+          "label": "Jugador 9",
+          "position": 505
+        },
+        {
+          "code": "IRN12",
+          "label": "Jugador 10",
+          "position": 506
+        },
+        {
+          "code": "IRN13",
+          "label": "Jugador 11",
+          "position": 507
+        },
+        {
+          "code": "IRN14",
+          "label": "Jugador 12",
+          "position": 508
+        },
+        {
+          "code": "IRN15",
+          "label": "Jugador 13",
+          "position": 509
+        },
+        {
+          "code": "IRN16",
+          "label": "Jugador 14",
+          "position": 510
+        },
+        {
+          "code": "IRN17",
+          "label": "Jugador 15",
+          "position": 511
+        },
+        {
+          "code": "IRN18",
+          "label": "Jugador 16",
+          "position": 512
+        },
+        {
+          "code": "IRN19",
+          "label": "Jugador 17",
+          "position": 513
+        },
+        {
+          "code": "IRN20",
+          "label": "Jugador 18",
+          "position": 514
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "name": "Irak",
+      "code_prefix": "IRQ",
+      "stickers": [
+        {
+          "code": "IRQ1",
+          "label": "Escudo",
+          "position": 515
+        },
+        {
+          "code": "IRQ2",
+          "label": "Foto grupal",
+          "position": 516
+        },
+        {
+          "code": "IRQ3",
+          "label": "Jugador 1",
+          "position": 517
+        },
+        {
+          "code": "IRQ4",
+          "label": "Jugador 2",
+          "position": 518
+        },
+        {
+          "code": "IRQ5",
+          "label": "Jugador 3",
+          "position": 519
+        },
+        {
+          "code": "IRQ6",
+          "label": "Jugador 4",
+          "position": 520
+        },
+        {
+          "code": "IRQ7",
+          "label": "Jugador 5",
+          "position": 521
+        },
+        {
+          "code": "IRQ8",
+          "label": "Jugador 6",
+          "position": 522
+        },
+        {
+          "code": "IRQ9",
+          "label": "Jugador 7",
+          "position": 523
+        },
+        {
+          "code": "IRQ10",
+          "label": "Jugador 8",
+          "position": 524
+        },
+        {
+          "code": "IRQ11",
+          "label": "Jugador 9",
+          "position": 525
+        },
+        {
+          "code": "IRQ12",
+          "label": "Jugador 10",
+          "position": 526
+        },
+        {
+          "code": "IRQ13",
+          "label": "Jugador 11",
+          "position": 527
+        },
+        {
+          "code": "IRQ14",
+          "label": "Jugador 12",
+          "position": 528
+        },
+        {
+          "code": "IRQ15",
+          "label": "Jugador 13",
+          "position": 529
+        },
+        {
+          "code": "IRQ16",
+          "label": "Jugador 14",
+          "position": 530
+        },
+        {
+          "code": "IRQ17",
+          "label": "Jugador 15",
+          "position": 531
+        },
+        {
+          "code": "IRQ18",
+          "label": "Jugador 16",
+          "position": 532
+        },
+        {
+          "code": "IRQ19",
+          "label": "Jugador 17",
+          "position": 533
+        },
+        {
+          "code": "IRQ20",
+          "label": "Jugador 18",
+          "position": 534
+        }
+      ]
+    },
+    {
+      "order": 26,
+      "name": "Jordania",
+      "code_prefix": "JOR",
+      "stickers": [
+        {
+          "code": "JOR1",
+          "label": "Escudo",
+          "position": 535
+        },
+        {
+          "code": "JOR2",
+          "label": "Foto grupal",
+          "position": 536
+        },
+        {
+          "code": "JOR3",
+          "label": "Jugador 1",
+          "position": 537
+        },
+        {
+          "code": "JOR4",
+          "label": "Jugador 2",
+          "position": 538
+        },
+        {
+          "code": "JOR5",
+          "label": "Jugador 3",
+          "position": 539
+        },
+        {
+          "code": "JOR6",
+          "label": "Jugador 4",
+          "position": 540
+        },
+        {
+          "code": "JOR7",
+          "label": "Jugador 5",
+          "position": 541
+        },
+        {
+          "code": "JOR8",
+          "label": "Jugador 6",
+          "position": 542
+        },
+        {
+          "code": "JOR9",
+          "label": "Jugador 7",
+          "position": 543
+        },
+        {
+          "code": "JOR10",
+          "label": "Jugador 8",
+          "position": 544
+        },
+        {
+          "code": "JOR11",
+          "label": "Jugador 9",
+          "position": 545
+        },
+        {
+          "code": "JOR12",
+          "label": "Jugador 10",
+          "position": 546
+        },
+        {
+          "code": "JOR13",
+          "label": "Jugador 11",
+          "position": 547
+        },
+        {
+          "code": "JOR14",
+          "label": "Jugador 12",
+          "position": 548
+        },
+        {
+          "code": "JOR15",
+          "label": "Jugador 13",
+          "position": 549
+        },
+        {
+          "code": "JOR16",
+          "label": "Jugador 14",
+          "position": 550
+        },
+        {
+          "code": "JOR17",
+          "label": "Jugador 15",
+          "position": 551
+        },
+        {
+          "code": "JOR18",
+          "label": "Jugador 16",
+          "position": 552
+        },
+        {
+          "code": "JOR19",
+          "label": "Jugador 17",
+          "position": 553
+        },
+        {
+          "code": "JOR20",
+          "label": "Jugador 18",
+          "position": 554
+        }
+      ]
+    },
+    {
+      "order": 27,
+      "name": "Japón",
+      "code_prefix": "JPN",
+      "stickers": [
+        {
+          "code": "JPN1",
+          "label": "Escudo",
+          "position": 555
+        },
+        {
+          "code": "JPN2",
+          "label": "Foto grupal",
+          "position": 556
+        },
+        {
+          "code": "JPN3",
+          "label": "Jugador 1",
+          "position": 557
+        },
+        {
+          "code": "JPN4",
+          "label": "Jugador 2",
+          "position": 558
+        },
+        {
+          "code": "JPN5",
+          "label": "Jugador 3",
+          "position": 559
+        },
+        {
+          "code": "JPN6",
+          "label": "Jugador 4",
+          "position": 560
+        },
+        {
+          "code": "JPN7",
+          "label": "Jugador 5",
+          "position": 561
+        },
+        {
+          "code": "JPN8",
+          "label": "Jugador 6",
+          "position": 562
+        },
+        {
+          "code": "JPN9",
+          "label": "Jugador 7",
+          "position": 563
+        },
+        {
+          "code": "JPN10",
+          "label": "Jugador 8",
+          "position": 564
+        },
+        {
+          "code": "JPN11",
+          "label": "Jugador 9",
+          "position": 565
+        },
+        {
+          "code": "JPN12",
+          "label": "Jugador 10",
+          "position": 566
+        },
+        {
+          "code": "JPN13",
+          "label": "Jugador 11",
+          "position": 567
+        },
+        {
+          "code": "JPN14",
+          "label": "Jugador 12",
+          "position": 568
+        },
+        {
+          "code": "JPN15",
+          "label": "Jugador 13",
+          "position": 569
+        },
+        {
+          "code": "JPN16",
+          "label": "Jugador 14",
+          "position": 570
+        },
+        {
+          "code": "JPN17",
+          "label": "Jugador 15",
+          "position": 571
+        },
+        {
+          "code": "JPN18",
+          "label": "Jugador 16",
+          "position": 572
+        },
+        {
+          "code": "JPN19",
+          "label": "Jugador 17",
+          "position": 573
+        },
+        {
+          "code": "JPN20",
+          "label": "Jugador 18",
+          "position": 574
+        }
+      ]
+    },
+    {
+      "order": 28,
+      "name": "Corea del Sur",
+      "code_prefix": "KOR",
+      "stickers": [
+        {
+          "code": "KOR1",
+          "label": "Escudo",
+          "position": 575
+        },
+        {
+          "code": "KOR2",
+          "label": "Foto grupal",
+          "position": 576
+        },
+        {
+          "code": "KOR3",
+          "label": "Jugador 1",
+          "position": 577
+        },
+        {
+          "code": "KOR4",
+          "label": "Jugador 2",
+          "position": 578
+        },
+        {
+          "code": "KOR5",
+          "label": "Jugador 3",
+          "position": 579
+        },
+        {
+          "code": "KOR6",
+          "label": "Jugador 4",
+          "position": 580
+        },
+        {
+          "code": "KOR7",
+          "label": "Jugador 5",
+          "position": 581
+        },
+        {
+          "code": "KOR8",
+          "label": "Jugador 6",
+          "position": 582
+        },
+        {
+          "code": "KOR9",
+          "label": "Jugador 7",
+          "position": 583
+        },
+        {
+          "code": "KOR10",
+          "label": "Jugador 8",
+          "position": 584
+        },
+        {
+          "code": "KOR11",
+          "label": "Jugador 9",
+          "position": 585
+        },
+        {
+          "code": "KOR12",
+          "label": "Jugador 10",
+          "position": 586
+        },
+        {
+          "code": "KOR13",
+          "label": "Jugador 11",
+          "position": 587
+        },
+        {
+          "code": "KOR14",
+          "label": "Jugador 12",
+          "position": 588
+        },
+        {
+          "code": "KOR15",
+          "label": "Jugador 13",
+          "position": 589
+        },
+        {
+          "code": "KOR16",
+          "label": "Jugador 14",
+          "position": 590
+        },
+        {
+          "code": "KOR17",
+          "label": "Jugador 15",
+          "position": 591
+        },
+        {
+          "code": "KOR18",
+          "label": "Jugador 16",
+          "position": 592
+        },
+        {
+          "code": "KOR19",
+          "label": "Jugador 17",
+          "position": 593
+        },
+        {
+          "code": "KOR20",
+          "label": "Jugador 18",
+          "position": 594
+        }
+      ]
+    },
+    {
+      "order": 29,
+      "name": "Arabia Saudita",
+      "code_prefix": "KSA",
+      "stickers": [
+        {
+          "code": "KSA1",
+          "label": "Escudo",
+          "position": 595
+        },
+        {
+          "code": "KSA2",
+          "label": "Foto grupal",
+          "position": 596
+        },
+        {
+          "code": "KSA3",
+          "label": "Jugador 1",
+          "position": 597
+        },
+        {
+          "code": "KSA4",
+          "label": "Jugador 2",
+          "position": 598
+        },
+        {
+          "code": "KSA5",
+          "label": "Jugador 3",
+          "position": 599
+        },
+        {
+          "code": "KSA6",
+          "label": "Jugador 4",
+          "position": 600
+        },
+        {
+          "code": "KSA7",
+          "label": "Jugador 5",
+          "position": 601
+        },
+        {
+          "code": "KSA8",
+          "label": "Jugador 6",
+          "position": 602
+        },
+        {
+          "code": "KSA9",
+          "label": "Jugador 7",
+          "position": 603
+        },
+        {
+          "code": "KSA10",
+          "label": "Jugador 8",
+          "position": 604
+        },
+        {
+          "code": "KSA11",
+          "label": "Jugador 9",
+          "position": 605
+        },
+        {
+          "code": "KSA12",
+          "label": "Jugador 10",
+          "position": 606
+        },
+        {
+          "code": "KSA13",
+          "label": "Jugador 11",
+          "position": 607
+        },
+        {
+          "code": "KSA14",
+          "label": "Jugador 12",
+          "position": 608
+        },
+        {
+          "code": "KSA15",
+          "label": "Jugador 13",
+          "position": 609
+        },
+        {
+          "code": "KSA16",
+          "label": "Jugador 14",
+          "position": 610
+        },
+        {
+          "code": "KSA17",
+          "label": "Jugador 15",
+          "position": 611
+        },
+        {
+          "code": "KSA18",
+          "label": "Jugador 16",
+          "position": 612
+        },
+        {
+          "code": "KSA19",
+          "label": "Jugador 17",
+          "position": 613
+        },
+        {
+          "code": "KSA20",
+          "label": "Jugador 18",
+          "position": 614
+        }
+      ]
+    },
+    {
+      "order": 30,
+      "name": "Marruecos",
+      "code_prefix": "MAR",
+      "stickers": [
+        {
+          "code": "MAR1",
+          "label": "Escudo",
+          "position": 615
+        },
+        {
+          "code": "MAR2",
+          "label": "Foto grupal",
+          "position": 616
+        },
+        {
+          "code": "MAR3",
+          "label": "Jugador 1",
+          "position": 617
+        },
+        {
+          "code": "MAR4",
+          "label": "Jugador 2",
+          "position": 618
+        },
+        {
+          "code": "MAR5",
+          "label": "Jugador 3",
+          "position": 619
+        },
+        {
+          "code": "MAR6",
+          "label": "Jugador 4",
+          "position": 620
+        },
+        {
+          "code": "MAR7",
+          "label": "Jugador 5",
+          "position": 621
+        },
+        {
+          "code": "MAR8",
+          "label": "Jugador 6",
+          "position": 622
+        },
+        {
+          "code": "MAR9",
+          "label": "Jugador 7",
+          "position": 623
+        },
+        {
+          "code": "MAR10",
+          "label": "Jugador 8",
+          "position": 624
+        },
+        {
+          "code": "MAR11",
+          "label": "Jugador 9",
+          "position": 625
+        },
+        {
+          "code": "MAR12",
+          "label": "Jugador 10",
+          "position": 626
+        },
+        {
+          "code": "MAR13",
+          "label": "Jugador 11",
+          "position": 627
+        },
+        {
+          "code": "MAR14",
+          "label": "Jugador 12",
+          "position": 628
+        },
+        {
+          "code": "MAR15",
+          "label": "Jugador 13",
+          "position": 629
+        },
+        {
+          "code": "MAR16",
+          "label": "Jugador 14",
+          "position": 630
+        },
+        {
+          "code": "MAR17",
+          "label": "Jugador 15",
+          "position": 631
+        },
+        {
+          "code": "MAR18",
+          "label": "Jugador 16",
+          "position": 632
+        },
+        {
+          "code": "MAR19",
+          "label": "Jugador 17",
+          "position": 633
+        },
+        {
+          "code": "MAR20",
+          "label": "Jugador 18",
+          "position": 634
+        }
+      ]
+    },
+    {
+      "order": 31,
+      "name": "México",
+      "code_prefix": "MEX",
+      "stickers": [
+        {
+          "code": "MEX1",
+          "label": "Escudo",
+          "position": 635
+        },
+        {
+          "code": "MEX2",
+          "label": "Foto grupal",
+          "position": 636
+        },
+        {
+          "code": "MEX3",
+          "label": "Jugador 1",
+          "position": 637
+        },
+        {
+          "code": "MEX4",
+          "label": "Jugador 2",
+          "position": 638
+        },
+        {
+          "code": "MEX5",
+          "label": "Jugador 3",
+          "position": 639
+        },
+        {
+          "code": "MEX6",
+          "label": "Jugador 4",
+          "position": 640
+        },
+        {
+          "code": "MEX7",
+          "label": "Jugador 5",
+          "position": 641
+        },
+        {
+          "code": "MEX8",
+          "label": "Jugador 6",
+          "position": 642
+        },
+        {
+          "code": "MEX9",
+          "label": "Jugador 7",
+          "position": 643
+        },
+        {
+          "code": "MEX10",
+          "label": "Jugador 8",
+          "position": 644
+        },
+        {
+          "code": "MEX11",
+          "label": "Jugador 9",
+          "position": 645
+        },
+        {
+          "code": "MEX12",
+          "label": "Jugador 10",
+          "position": 646
+        },
+        {
+          "code": "MEX13",
+          "label": "Jugador 11",
+          "position": 647
+        },
+        {
+          "code": "MEX14",
+          "label": "Jugador 12",
+          "position": 648
+        },
+        {
+          "code": "MEX15",
+          "label": "Jugador 13",
+          "position": 649
+        },
+        {
+          "code": "MEX16",
+          "label": "Jugador 14",
+          "position": 650
+        },
+        {
+          "code": "MEX17",
+          "label": "Jugador 15",
+          "position": 651
+        },
+        {
+          "code": "MEX18",
+          "label": "Jugador 16",
+          "position": 652
+        },
+        {
+          "code": "MEX19",
+          "label": "Jugador 17",
+          "position": 653
+        },
+        {
+          "code": "MEX20",
+          "label": "Jugador 18",
+          "position": 654
+        }
+      ]
+    },
+    {
+      "order": 32,
+      "name": "Países Bajos",
+      "code_prefix": "NED",
+      "stickers": [
+        {
+          "code": "NED1",
+          "label": "Escudo",
+          "position": 655
+        },
+        {
+          "code": "NED2",
+          "label": "Foto grupal",
+          "position": 656
+        },
+        {
+          "code": "NED3",
+          "label": "Jugador 1",
+          "position": 657
+        },
+        {
+          "code": "NED4",
+          "label": "Jugador 2",
+          "position": 658
+        },
+        {
+          "code": "NED5",
+          "label": "Jugador 3",
+          "position": 659
+        },
+        {
+          "code": "NED6",
+          "label": "Jugador 4",
+          "position": 660
+        },
+        {
+          "code": "NED7",
+          "label": "Jugador 5",
+          "position": 661
+        },
+        {
+          "code": "NED8",
+          "label": "Jugador 6",
+          "position": 662
+        },
+        {
+          "code": "NED9",
+          "label": "Jugador 7",
+          "position": 663
+        },
+        {
+          "code": "NED10",
+          "label": "Jugador 8",
+          "position": 664
+        },
+        {
+          "code": "NED11",
+          "label": "Jugador 9",
+          "position": 665
+        },
+        {
+          "code": "NED12",
+          "label": "Jugador 10",
+          "position": 666
+        },
+        {
+          "code": "NED13",
+          "label": "Jugador 11",
+          "position": 667
+        },
+        {
+          "code": "NED14",
+          "label": "Jugador 12",
+          "position": 668
+        },
+        {
+          "code": "NED15",
+          "label": "Jugador 13",
+          "position": 669
+        },
+        {
+          "code": "NED16",
+          "label": "Jugador 14",
+          "position": 670
+        },
+        {
+          "code": "NED17",
+          "label": "Jugador 15",
+          "position": 671
+        },
+        {
+          "code": "NED18",
+          "label": "Jugador 16",
+          "position": 672
+        },
+        {
+          "code": "NED19",
+          "label": "Jugador 17",
+          "position": 673
+        },
+        {
+          "code": "NED20",
+          "label": "Jugador 18",
+          "position": 674
+        }
+      ]
+    },
+    {
+      "order": 33,
+      "name": "Noruega",
+      "code_prefix": "NOR",
+      "stickers": [
+        {
+          "code": "NOR1",
+          "label": "Escudo",
+          "position": 675
+        },
+        {
+          "code": "NOR2",
+          "label": "Foto grupal",
+          "position": 676
+        },
+        {
+          "code": "NOR3",
+          "label": "Jugador 1",
+          "position": 677
+        },
+        {
+          "code": "NOR4",
+          "label": "Jugador 2",
+          "position": 678
+        },
+        {
+          "code": "NOR5",
+          "label": "Jugador 3",
+          "position": 679
+        },
+        {
+          "code": "NOR6",
+          "label": "Jugador 4",
+          "position": 680
+        },
+        {
+          "code": "NOR7",
+          "label": "Jugador 5",
+          "position": 681
+        },
+        {
+          "code": "NOR8",
+          "label": "Jugador 6",
+          "position": 682
+        },
+        {
+          "code": "NOR9",
+          "label": "Jugador 7",
+          "position": 683
+        },
+        {
+          "code": "NOR10",
+          "label": "Jugador 8",
+          "position": 684
+        },
+        {
+          "code": "NOR11",
+          "label": "Jugador 9",
+          "position": 685
+        },
+        {
+          "code": "NOR12",
+          "label": "Jugador 10",
+          "position": 686
+        },
+        {
+          "code": "NOR13",
+          "label": "Jugador 11",
+          "position": 687
+        },
+        {
+          "code": "NOR14",
+          "label": "Jugador 12",
+          "position": 688
+        },
+        {
+          "code": "NOR15",
+          "label": "Jugador 13",
+          "position": 689
+        },
+        {
+          "code": "NOR16",
+          "label": "Jugador 14",
+          "position": 690
+        },
+        {
+          "code": "NOR17",
+          "label": "Jugador 15",
+          "position": 691
+        },
+        {
+          "code": "NOR18",
+          "label": "Jugador 16",
+          "position": 692
+        },
+        {
+          "code": "NOR19",
+          "label": "Jugador 17",
+          "position": 693
+        },
+        {
+          "code": "NOR20",
+          "label": "Jugador 18",
+          "position": 694
+        }
+      ]
+    },
+    {
+      "order": 34,
+      "name": "Nueva Zelanda",
+      "code_prefix": "NZL",
+      "stickers": [
+        {
+          "code": "NZL1",
+          "label": "Escudo",
+          "position": 695
+        },
+        {
+          "code": "NZL2",
+          "label": "Foto grupal",
+          "position": 696
+        },
+        {
+          "code": "NZL3",
+          "label": "Jugador 1",
+          "position": 697
+        },
+        {
+          "code": "NZL4",
+          "label": "Jugador 2",
+          "position": 698
+        },
+        {
+          "code": "NZL5",
+          "label": "Jugador 3",
+          "position": 699
+        },
+        {
+          "code": "NZL6",
+          "label": "Jugador 4",
+          "position": 700
+        },
+        {
+          "code": "NZL7",
+          "label": "Jugador 5",
+          "position": 701
+        },
+        {
+          "code": "NZL8",
+          "label": "Jugador 6",
+          "position": 702
+        },
+        {
+          "code": "NZL9",
+          "label": "Jugador 7",
+          "position": 703
+        },
+        {
+          "code": "NZL10",
+          "label": "Jugador 8",
+          "position": 704
+        },
+        {
+          "code": "NZL11",
+          "label": "Jugador 9",
+          "position": 705
+        },
+        {
+          "code": "NZL12",
+          "label": "Jugador 10",
+          "position": 706
+        },
+        {
+          "code": "NZL13",
+          "label": "Jugador 11",
+          "position": 707
+        },
+        {
+          "code": "NZL14",
+          "label": "Jugador 12",
+          "position": 708
+        },
+        {
+          "code": "NZL15",
+          "label": "Jugador 13",
+          "position": 709
+        },
+        {
+          "code": "NZL16",
+          "label": "Jugador 14",
+          "position": 710
+        },
+        {
+          "code": "NZL17",
+          "label": "Jugador 15",
+          "position": 711
+        },
+        {
+          "code": "NZL18",
+          "label": "Jugador 16",
+          "position": 712
+        },
+        {
+          "code": "NZL19",
+          "label": "Jugador 17",
+          "position": 713
+        },
+        {
+          "code": "NZL20",
+          "label": "Jugador 18",
+          "position": 714
+        }
+      ]
+    },
+    {
+      "order": 35,
+      "name": "Panamá",
+      "code_prefix": "PAN",
+      "stickers": [
+        {
+          "code": "PAN1",
+          "label": "Escudo",
+          "position": 715
+        },
+        {
+          "code": "PAN2",
+          "label": "Foto grupal",
+          "position": 716
+        },
+        {
+          "code": "PAN3",
+          "label": "Jugador 1",
+          "position": 717
+        },
+        {
+          "code": "PAN4",
+          "label": "Jugador 2",
+          "position": 718
+        },
+        {
+          "code": "PAN5",
+          "label": "Jugador 3",
+          "position": 719
+        },
+        {
+          "code": "PAN6",
+          "label": "Jugador 4",
+          "position": 720
+        },
+        {
+          "code": "PAN7",
+          "label": "Jugador 5",
+          "position": 721
+        },
+        {
+          "code": "PAN8",
+          "label": "Jugador 6",
+          "position": 722
+        },
+        {
+          "code": "PAN9",
+          "label": "Jugador 7",
+          "position": 723
+        },
+        {
+          "code": "PAN10",
+          "label": "Jugador 8",
+          "position": 724
+        },
+        {
+          "code": "PAN11",
+          "label": "Jugador 9",
+          "position": 725
+        },
+        {
+          "code": "PAN12",
+          "label": "Jugador 10",
+          "position": 726
+        },
+        {
+          "code": "PAN13",
+          "label": "Jugador 11",
+          "position": 727
+        },
+        {
+          "code": "PAN14",
+          "label": "Jugador 12",
+          "position": 728
+        },
+        {
+          "code": "PAN15",
+          "label": "Jugador 13",
+          "position": 729
+        },
+        {
+          "code": "PAN16",
+          "label": "Jugador 14",
+          "position": 730
+        },
+        {
+          "code": "PAN17",
+          "label": "Jugador 15",
+          "position": 731
+        },
+        {
+          "code": "PAN18",
+          "label": "Jugador 16",
+          "position": 732
+        },
+        {
+          "code": "PAN19",
+          "label": "Jugador 17",
+          "position": 733
+        },
+        {
+          "code": "PAN20",
+          "label": "Jugador 18",
+          "position": 734
+        }
+      ]
+    },
+    {
+      "order": 36,
+      "name": "Paraguay",
+      "code_prefix": "PAR",
+      "stickers": [
+        {
+          "code": "PAR1",
+          "label": "Escudo",
+          "position": 735
+        },
+        {
+          "code": "PAR2",
+          "label": "Foto grupal",
+          "position": 736
+        },
+        {
+          "code": "PAR3",
+          "label": "Jugador 1",
+          "position": 737
+        },
+        {
+          "code": "PAR4",
+          "label": "Jugador 2",
+          "position": 738
+        },
+        {
+          "code": "PAR5",
+          "label": "Jugador 3",
+          "position": 739
+        },
+        {
+          "code": "PAR6",
+          "label": "Jugador 4",
+          "position": 740
+        },
+        {
+          "code": "PAR7",
+          "label": "Jugador 5",
+          "position": 741
+        },
+        {
+          "code": "PAR8",
+          "label": "Jugador 6",
+          "position": 742
+        },
+        {
+          "code": "PAR9",
+          "label": "Jugador 7",
+          "position": 743
+        },
+        {
+          "code": "PAR10",
+          "label": "Jugador 8",
+          "position": 744
+        },
+        {
+          "code": "PAR11",
+          "label": "Jugador 9",
+          "position": 745
+        },
+        {
+          "code": "PAR12",
+          "label": "Jugador 10",
+          "position": 746
+        },
+        {
+          "code": "PAR13",
+          "label": "Jugador 11",
+          "position": 747
+        },
+        {
+          "code": "PAR14",
+          "label": "Jugador 12",
+          "position": 748
+        },
+        {
+          "code": "PAR15",
+          "label": "Jugador 13",
+          "position": 749
+        },
+        {
+          "code": "PAR16",
+          "label": "Jugador 14",
+          "position": 750
+        },
+        {
+          "code": "PAR17",
+          "label": "Jugador 15",
+          "position": 751
+        },
+        {
+          "code": "PAR18",
+          "label": "Jugador 16",
+          "position": 752
+        },
+        {
+          "code": "PAR19",
+          "label": "Jugador 17",
+          "position": 753
+        },
+        {
+          "code": "PAR20",
+          "label": "Jugador 18",
+          "position": 754
+        }
+      ]
+    },
+    {
+      "order": 37,
+      "name": "Portugal",
+      "code_prefix": "POR",
+      "stickers": [
+        {
+          "code": "POR1",
+          "label": "Escudo",
+          "position": 755
+        },
+        {
+          "code": "POR2",
+          "label": "Foto grupal",
+          "position": 756
+        },
+        {
+          "code": "POR3",
+          "label": "Jugador 1",
+          "position": 757
+        },
+        {
+          "code": "POR4",
+          "label": "Jugador 2",
+          "position": 758
+        },
+        {
+          "code": "POR5",
+          "label": "Jugador 3",
+          "position": 759
+        },
+        {
+          "code": "POR6",
+          "label": "Jugador 4",
+          "position": 760
+        },
+        {
+          "code": "POR7",
+          "label": "Jugador 5",
+          "position": 761
+        },
+        {
+          "code": "POR8",
+          "label": "Jugador 6",
+          "position": 762
+        },
+        {
+          "code": "POR9",
+          "label": "Jugador 7",
+          "position": 763
+        },
+        {
+          "code": "POR10",
+          "label": "Jugador 8",
+          "position": 764
+        },
+        {
+          "code": "POR11",
+          "label": "Jugador 9",
+          "position": 765
+        },
+        {
+          "code": "POR12",
+          "label": "Jugador 10",
+          "position": 766
+        },
+        {
+          "code": "POR13",
+          "label": "Jugador 11",
+          "position": 767
+        },
+        {
+          "code": "POR14",
+          "label": "Jugador 12",
+          "position": 768
+        },
+        {
+          "code": "POR15",
+          "label": "Jugador 13",
+          "position": 769
+        },
+        {
+          "code": "POR16",
+          "label": "Jugador 14",
+          "position": 770
+        },
+        {
+          "code": "POR17",
+          "label": "Jugador 15",
+          "position": 771
+        },
+        {
+          "code": "POR18",
+          "label": "Jugador 16",
+          "position": 772
+        },
+        {
+          "code": "POR19",
+          "label": "Jugador 17",
+          "position": 773
+        },
+        {
+          "code": "POR20",
+          "label": "Jugador 18",
+          "position": 774
+        }
+      ]
+    },
+    {
+      "order": 38,
+      "name": "Qatar",
+      "code_prefix": "QAT",
+      "stickers": [
+        {
+          "code": "QAT1",
+          "label": "Escudo",
+          "position": 775
+        },
+        {
+          "code": "QAT2",
+          "label": "Foto grupal",
+          "position": 776
+        },
+        {
+          "code": "QAT3",
+          "label": "Jugador 1",
+          "position": 777
+        },
+        {
+          "code": "QAT4",
+          "label": "Jugador 2",
+          "position": 778
+        },
+        {
+          "code": "QAT5",
+          "label": "Jugador 3",
+          "position": 779
+        },
+        {
+          "code": "QAT6",
+          "label": "Jugador 4",
+          "position": 780
+        },
+        {
+          "code": "QAT7",
+          "label": "Jugador 5",
+          "position": 781
+        },
+        {
+          "code": "QAT8",
+          "label": "Jugador 6",
+          "position": 782
+        },
+        {
+          "code": "QAT9",
+          "label": "Jugador 7",
+          "position": 783
+        },
+        {
+          "code": "QAT10",
+          "label": "Jugador 8",
+          "position": 784
+        },
+        {
+          "code": "QAT11",
+          "label": "Jugador 9",
+          "position": 785
+        },
+        {
+          "code": "QAT12",
+          "label": "Jugador 10",
+          "position": 786
+        },
+        {
+          "code": "QAT13",
+          "label": "Jugador 11",
+          "position": 787
+        },
+        {
+          "code": "QAT14",
+          "label": "Jugador 12",
+          "position": 788
+        },
+        {
+          "code": "QAT15",
+          "label": "Jugador 13",
+          "position": 789
+        },
+        {
+          "code": "QAT16",
+          "label": "Jugador 14",
+          "position": 790
+        },
+        {
+          "code": "QAT17",
+          "label": "Jugador 15",
+          "position": 791
+        },
+        {
+          "code": "QAT18",
+          "label": "Jugador 16",
+          "position": 792
+        },
+        {
+          "code": "QAT19",
+          "label": "Jugador 17",
+          "position": 793
+        },
+        {
+          "code": "QAT20",
+          "label": "Jugador 18",
+          "position": 794
+        }
+      ]
+    },
+    {
+      "order": 39,
+      "name": "Sudáfrica",
+      "code_prefix": "RSA",
+      "stickers": [
+        {
+          "code": "RSA1",
+          "label": "Escudo",
+          "position": 795
+        },
+        {
+          "code": "RSA2",
+          "label": "Foto grupal",
+          "position": 796
+        },
+        {
+          "code": "RSA3",
+          "label": "Jugador 1",
+          "position": 797
+        },
+        {
+          "code": "RSA4",
+          "label": "Jugador 2",
+          "position": 798
+        },
+        {
+          "code": "RSA5",
+          "label": "Jugador 3",
+          "position": 799
+        },
+        {
+          "code": "RSA6",
+          "label": "Jugador 4",
+          "position": 800
+        },
+        {
+          "code": "RSA7",
+          "label": "Jugador 5",
+          "position": 801
+        },
+        {
+          "code": "RSA8",
+          "label": "Jugador 6",
+          "position": 802
+        },
+        {
+          "code": "RSA9",
+          "label": "Jugador 7",
+          "position": 803
+        },
+        {
+          "code": "RSA10",
+          "label": "Jugador 8",
+          "position": 804
+        },
+        {
+          "code": "RSA11",
+          "label": "Jugador 9",
+          "position": 805
+        },
+        {
+          "code": "RSA12",
+          "label": "Jugador 10",
+          "position": 806
+        },
+        {
+          "code": "RSA13",
+          "label": "Jugador 11",
+          "position": 807
+        },
+        {
+          "code": "RSA14",
+          "label": "Jugador 12",
+          "position": 808
+        },
+        {
+          "code": "RSA15",
+          "label": "Jugador 13",
+          "position": 809
+        },
+        {
+          "code": "RSA16",
+          "label": "Jugador 14",
+          "position": 810
+        },
+        {
+          "code": "RSA17",
+          "label": "Jugador 15",
+          "position": 811
+        },
+        {
+          "code": "RSA18",
+          "label": "Jugador 16",
+          "position": 812
+        },
+        {
+          "code": "RSA19",
+          "label": "Jugador 17",
+          "position": 813
+        },
+        {
+          "code": "RSA20",
+          "label": "Jugador 18",
+          "position": 814
+        }
+      ]
+    },
+    {
+      "order": 40,
+      "name": "Escocia",
+      "code_prefix": "SCO",
+      "stickers": [
+        {
+          "code": "SCO1",
+          "label": "Escudo",
+          "position": 815
+        },
+        {
+          "code": "SCO2",
+          "label": "Foto grupal",
+          "position": 816
+        },
+        {
+          "code": "SCO3",
+          "label": "Jugador 1",
+          "position": 817
+        },
+        {
+          "code": "SCO4",
+          "label": "Jugador 2",
+          "position": 818
+        },
+        {
+          "code": "SCO5",
+          "label": "Jugador 3",
+          "position": 819
+        },
+        {
+          "code": "SCO6",
+          "label": "Jugador 4",
+          "position": 820
+        },
+        {
+          "code": "SCO7",
+          "label": "Jugador 5",
+          "position": 821
+        },
+        {
+          "code": "SCO8",
+          "label": "Jugador 6",
+          "position": 822
+        },
+        {
+          "code": "SCO9",
+          "label": "Jugador 7",
+          "position": 823
+        },
+        {
+          "code": "SCO10",
+          "label": "Jugador 8",
+          "position": 824
+        },
+        {
+          "code": "SCO11",
+          "label": "Jugador 9",
+          "position": 825
+        },
+        {
+          "code": "SCO12",
+          "label": "Jugador 10",
+          "position": 826
+        },
+        {
+          "code": "SCO13",
+          "label": "Jugador 11",
+          "position": 827
+        },
+        {
+          "code": "SCO14",
+          "label": "Jugador 12",
+          "position": 828
+        },
+        {
+          "code": "SCO15",
+          "label": "Jugador 13",
+          "position": 829
+        },
+        {
+          "code": "SCO16",
+          "label": "Jugador 14",
+          "position": 830
+        },
+        {
+          "code": "SCO17",
+          "label": "Jugador 15",
+          "position": 831
+        },
+        {
+          "code": "SCO18",
+          "label": "Jugador 16",
+          "position": 832
+        },
+        {
+          "code": "SCO19",
+          "label": "Jugador 17",
+          "position": 833
+        },
+        {
+          "code": "SCO20",
+          "label": "Jugador 18",
+          "position": 834
+        }
+      ]
+    },
+    {
+      "order": 41,
+      "name": "Senegal",
+      "code_prefix": "SEN",
+      "stickers": [
+        {
+          "code": "SEN1",
+          "label": "Escudo",
+          "position": 835
+        },
+        {
+          "code": "SEN2",
+          "label": "Foto grupal",
+          "position": 836
+        },
+        {
+          "code": "SEN3",
+          "label": "Jugador 1",
+          "position": 837
+        },
+        {
+          "code": "SEN4",
+          "label": "Jugador 2",
+          "position": 838
+        },
+        {
+          "code": "SEN5",
+          "label": "Jugador 3",
+          "position": 839
+        },
+        {
+          "code": "SEN6",
+          "label": "Jugador 4",
+          "position": 840
+        },
+        {
+          "code": "SEN7",
+          "label": "Jugador 5",
+          "position": 841
+        },
+        {
+          "code": "SEN8",
+          "label": "Jugador 6",
+          "position": 842
+        },
+        {
+          "code": "SEN9",
+          "label": "Jugador 7",
+          "position": 843
+        },
+        {
+          "code": "SEN10",
+          "label": "Jugador 8",
+          "position": 844
+        },
+        {
+          "code": "SEN11",
+          "label": "Jugador 9",
+          "position": 845
+        },
+        {
+          "code": "SEN12",
+          "label": "Jugador 10",
+          "position": 846
+        },
+        {
+          "code": "SEN13",
+          "label": "Jugador 11",
+          "position": 847
+        },
+        {
+          "code": "SEN14",
+          "label": "Jugador 12",
+          "position": 848
+        },
+        {
+          "code": "SEN15",
+          "label": "Jugador 13",
+          "position": 849
+        },
+        {
+          "code": "SEN16",
+          "label": "Jugador 14",
+          "position": 850
+        },
+        {
+          "code": "SEN17",
+          "label": "Jugador 15",
+          "position": 851
+        },
+        {
+          "code": "SEN18",
+          "label": "Jugador 16",
+          "position": 852
+        },
+        {
+          "code": "SEN19",
+          "label": "Jugador 17",
+          "position": 853
+        },
+        {
+          "code": "SEN20",
+          "label": "Jugador 18",
+          "position": 854
+        }
+      ]
+    },
+    {
+      "order": 42,
+      "name": "Suiza",
+      "code_prefix": "SUI",
+      "stickers": [
+        {
+          "code": "SUI1",
+          "label": "Escudo",
+          "position": 855
+        },
+        {
+          "code": "SUI2",
+          "label": "Foto grupal",
+          "position": 856
+        },
+        {
+          "code": "SUI3",
+          "label": "Jugador 1",
+          "position": 857
+        },
+        {
+          "code": "SUI4",
+          "label": "Jugador 2",
+          "position": 858
+        },
+        {
+          "code": "SUI5",
+          "label": "Jugador 3",
+          "position": 859
+        },
+        {
+          "code": "SUI6",
+          "label": "Jugador 4",
+          "position": 860
+        },
+        {
+          "code": "SUI7",
+          "label": "Jugador 5",
+          "position": 861
+        },
+        {
+          "code": "SUI8",
+          "label": "Jugador 6",
+          "position": 862
+        },
+        {
+          "code": "SUI9",
+          "label": "Jugador 7",
+          "position": 863
+        },
+        {
+          "code": "SUI10",
+          "label": "Jugador 8",
+          "position": 864
+        },
+        {
+          "code": "SUI11",
+          "label": "Jugador 9",
+          "position": 865
+        },
+        {
+          "code": "SUI12",
+          "label": "Jugador 10",
+          "position": 866
+        },
+        {
+          "code": "SUI13",
+          "label": "Jugador 11",
+          "position": 867
+        },
+        {
+          "code": "SUI14",
+          "label": "Jugador 12",
+          "position": 868
+        },
+        {
+          "code": "SUI15",
+          "label": "Jugador 13",
+          "position": 869
+        },
+        {
+          "code": "SUI16",
+          "label": "Jugador 14",
+          "position": 870
+        },
+        {
+          "code": "SUI17",
+          "label": "Jugador 15",
+          "position": 871
+        },
+        {
+          "code": "SUI18",
+          "label": "Jugador 16",
+          "position": 872
+        },
+        {
+          "code": "SUI19",
+          "label": "Jugador 17",
+          "position": 873
+        },
+        {
+          "code": "SUI20",
+          "label": "Jugador 18",
+          "position": 874
+        }
+      ]
+    },
+    {
+      "order": 43,
+      "name": "Suecia",
+      "code_prefix": "SWE",
+      "stickers": [
+        {
+          "code": "SWE1",
+          "label": "Escudo",
+          "position": 875
+        },
+        {
+          "code": "SWE2",
+          "label": "Foto grupal",
+          "position": 876
+        },
+        {
+          "code": "SWE3",
+          "label": "Jugador 1",
+          "position": 877
+        },
+        {
+          "code": "SWE4",
+          "label": "Jugador 2",
+          "position": 878
+        },
+        {
+          "code": "SWE5",
+          "label": "Jugador 3",
+          "position": 879
+        },
+        {
+          "code": "SWE6",
+          "label": "Jugador 4",
+          "position": 880
+        },
+        {
+          "code": "SWE7",
+          "label": "Jugador 5",
+          "position": 881
+        },
+        {
+          "code": "SWE8",
+          "label": "Jugador 6",
+          "position": 882
+        },
+        {
+          "code": "SWE9",
+          "label": "Jugador 7",
+          "position": 883
+        },
+        {
+          "code": "SWE10",
+          "label": "Jugador 8",
+          "position": 884
+        },
+        {
+          "code": "SWE11",
+          "label": "Jugador 9",
+          "position": 885
+        },
+        {
+          "code": "SWE12",
+          "label": "Jugador 10",
+          "position": 886
+        },
+        {
+          "code": "SWE13",
+          "label": "Jugador 11",
+          "position": 887
+        },
+        {
+          "code": "SWE14",
+          "label": "Jugador 12",
+          "position": 888
+        },
+        {
+          "code": "SWE15",
+          "label": "Jugador 13",
+          "position": 889
+        },
+        {
+          "code": "SWE16",
+          "label": "Jugador 14",
+          "position": 890
+        },
+        {
+          "code": "SWE17",
+          "label": "Jugador 15",
+          "position": 891
+        },
+        {
+          "code": "SWE18",
+          "label": "Jugador 16",
+          "position": 892
+        },
+        {
+          "code": "SWE19",
+          "label": "Jugador 17",
+          "position": 893
+        },
+        {
+          "code": "SWE20",
+          "label": "Jugador 18",
+          "position": 894
+        }
+      ]
+    },
+    {
+      "order": 44,
+      "name": "Túnez",
+      "code_prefix": "TUN",
+      "stickers": [
+        {
+          "code": "TUN1",
+          "label": "Escudo",
+          "position": 895
+        },
+        {
+          "code": "TUN2",
+          "label": "Foto grupal",
+          "position": 896
+        },
+        {
+          "code": "TUN3",
+          "label": "Jugador 1",
+          "position": 897
+        },
+        {
+          "code": "TUN4",
+          "label": "Jugador 2",
+          "position": 898
+        },
+        {
+          "code": "TUN5",
+          "label": "Jugador 3",
+          "position": 899
+        },
+        {
+          "code": "TUN6",
+          "label": "Jugador 4",
+          "position": 900
+        },
+        {
+          "code": "TUN7",
+          "label": "Jugador 5",
+          "position": 901
+        },
+        {
+          "code": "TUN8",
+          "label": "Jugador 6",
+          "position": 902
+        },
+        {
+          "code": "TUN9",
+          "label": "Jugador 7",
+          "position": 903
+        },
+        {
+          "code": "TUN10",
+          "label": "Jugador 8",
+          "position": 904
+        },
+        {
+          "code": "TUN11",
+          "label": "Jugador 9",
+          "position": 905
+        },
+        {
+          "code": "TUN12",
+          "label": "Jugador 10",
+          "position": 906
+        },
+        {
+          "code": "TUN13",
+          "label": "Jugador 11",
+          "position": 907
+        },
+        {
+          "code": "TUN14",
+          "label": "Jugador 12",
+          "position": 908
+        },
+        {
+          "code": "TUN15",
+          "label": "Jugador 13",
+          "position": 909
+        },
+        {
+          "code": "TUN16",
+          "label": "Jugador 14",
+          "position": 910
+        },
+        {
+          "code": "TUN17",
+          "label": "Jugador 15",
+          "position": 911
+        },
+        {
+          "code": "TUN18",
+          "label": "Jugador 16",
+          "position": 912
+        },
+        {
+          "code": "TUN19",
+          "label": "Jugador 17",
+          "position": 913
+        },
+        {
+          "code": "TUN20",
+          "label": "Jugador 18",
+          "position": 914
+        }
+      ]
+    },
+    {
+      "order": 45,
+      "name": "Türkiye",
+      "code_prefix": "TUR",
+      "stickers": [
+        {
+          "code": "TUR1",
+          "label": "Escudo",
+          "position": 915
+        },
+        {
+          "code": "TUR2",
+          "label": "Foto grupal",
+          "position": 916
+        },
+        {
+          "code": "TUR3",
+          "label": "Jugador 1",
+          "position": 917
+        },
+        {
+          "code": "TUR4",
+          "label": "Jugador 2",
+          "position": 918
+        },
+        {
+          "code": "TUR5",
+          "label": "Jugador 3",
+          "position": 919
+        },
+        {
+          "code": "TUR6",
+          "label": "Jugador 4",
+          "position": 920
+        },
+        {
+          "code": "TUR7",
+          "label": "Jugador 5",
+          "position": 921
+        },
+        {
+          "code": "TUR8",
+          "label": "Jugador 6",
+          "position": 922
+        },
+        {
+          "code": "TUR9",
+          "label": "Jugador 7",
+          "position": 923
+        },
+        {
+          "code": "TUR10",
+          "label": "Jugador 8",
+          "position": 924
+        },
+        {
+          "code": "TUR11",
+          "label": "Jugador 9",
+          "position": 925
+        },
+        {
+          "code": "TUR12",
+          "label": "Jugador 10",
+          "position": 926
+        },
+        {
+          "code": "TUR13",
+          "label": "Jugador 11",
+          "position": 927
+        },
+        {
+          "code": "TUR14",
+          "label": "Jugador 12",
+          "position": 928
+        },
+        {
+          "code": "TUR15",
+          "label": "Jugador 13",
+          "position": 929
+        },
+        {
+          "code": "TUR16",
+          "label": "Jugador 14",
+          "position": 930
+        },
+        {
+          "code": "TUR17",
+          "label": "Jugador 15",
+          "position": 931
+        },
+        {
+          "code": "TUR18",
+          "label": "Jugador 16",
+          "position": 932
+        },
+        {
+          "code": "TUR19",
+          "label": "Jugador 17",
+          "position": 933
+        },
+        {
+          "code": "TUR20",
+          "label": "Jugador 18",
+          "position": 934
+        }
+      ]
+    },
+    {
+      "order": 46,
+      "name": "Uruguay",
+      "code_prefix": "URU",
+      "stickers": [
+        {
+          "code": "URU1",
+          "label": "Escudo",
+          "position": 935
+        },
+        {
+          "code": "URU2",
+          "label": "Foto grupal",
+          "position": 936
+        },
+        {
+          "code": "URU3",
+          "label": "Jugador 1",
+          "position": 937
+        },
+        {
+          "code": "URU4",
+          "label": "Jugador 2",
+          "position": 938
+        },
+        {
+          "code": "URU5",
+          "label": "Jugador 3",
+          "position": 939
+        },
+        {
+          "code": "URU6",
+          "label": "Jugador 4",
+          "position": 940
+        },
+        {
+          "code": "URU7",
+          "label": "Jugador 5",
+          "position": 941
+        },
+        {
+          "code": "URU8",
+          "label": "Jugador 6",
+          "position": 942
+        },
+        {
+          "code": "URU9",
+          "label": "Jugador 7",
+          "position": 943
+        },
+        {
+          "code": "URU10",
+          "label": "Jugador 8",
+          "position": 944
+        },
+        {
+          "code": "URU11",
+          "label": "Jugador 9",
+          "position": 945
+        },
+        {
+          "code": "URU12",
+          "label": "Jugador 10",
+          "position": 946
+        },
+        {
+          "code": "URU13",
+          "label": "Jugador 11",
+          "position": 947
+        },
+        {
+          "code": "URU14",
+          "label": "Jugador 12",
+          "position": 948
+        },
+        {
+          "code": "URU15",
+          "label": "Jugador 13",
+          "position": 949
+        },
+        {
+          "code": "URU16",
+          "label": "Jugador 14",
+          "position": 950
+        },
+        {
+          "code": "URU17",
+          "label": "Jugador 15",
+          "position": 951
+        },
+        {
+          "code": "URU18",
+          "label": "Jugador 16",
+          "position": 952
+        },
+        {
+          "code": "URU19",
+          "label": "Jugador 17",
+          "position": 953
+        },
+        {
+          "code": "URU20",
+          "label": "Jugador 18",
+          "position": 954
+        }
+      ]
+    },
+    {
+      "order": 47,
+      "name": "Estados Unidos",
+      "code_prefix": "USA",
+      "stickers": [
+        {
+          "code": "USA1",
+          "label": "Escudo",
+          "position": 955
+        },
+        {
+          "code": "USA2",
+          "label": "Foto grupal",
+          "position": 956
+        },
+        {
+          "code": "USA3",
+          "label": "Jugador 1",
+          "position": 957
+        },
+        {
+          "code": "USA4",
+          "label": "Jugador 2",
+          "position": 958
+        },
+        {
+          "code": "USA5",
+          "label": "Jugador 3",
+          "position": 959
+        },
+        {
+          "code": "USA6",
+          "label": "Jugador 4",
+          "position": 960
+        },
+        {
+          "code": "USA7",
+          "label": "Jugador 5",
+          "position": 961
+        },
+        {
+          "code": "USA8",
+          "label": "Jugador 6",
+          "position": 962
+        },
+        {
+          "code": "USA9",
+          "label": "Jugador 7",
+          "position": 963
+        },
+        {
+          "code": "USA10",
+          "label": "Jugador 8",
+          "position": 964
+        },
+        {
+          "code": "USA11",
+          "label": "Jugador 9",
+          "position": 965
+        },
+        {
+          "code": "USA12",
+          "label": "Jugador 10",
+          "position": 966
+        },
+        {
+          "code": "USA13",
+          "label": "Jugador 11",
+          "position": 967
+        },
+        {
+          "code": "USA14",
+          "label": "Jugador 12",
+          "position": 968
+        },
+        {
+          "code": "USA15",
+          "label": "Jugador 13",
+          "position": 969
+        },
+        {
+          "code": "USA16",
+          "label": "Jugador 14",
+          "position": 970
+        },
+        {
+          "code": "USA17",
+          "label": "Jugador 15",
+          "position": 971
+        },
+        {
+          "code": "USA18",
+          "label": "Jugador 16",
+          "position": 972
+        },
+        {
+          "code": "USA19",
+          "label": "Jugador 17",
+          "position": 973
+        },
+        {
+          "code": "USA20",
+          "label": "Jugador 18",
+          "position": 974
+        }
+      ]
+    },
+    {
+      "order": 48,
+      "name": "Uzbekistán",
+      "code_prefix": "UZB",
+      "stickers": [
+        {
+          "code": "UZB1",
+          "label": "Escudo",
+          "position": 975
+        },
+        {
+          "code": "UZB2",
+          "label": "Foto grupal",
+          "position": 976
+        },
+        {
+          "code": "UZB3",
+          "label": "Jugador 1",
+          "position": 977
+        },
+        {
+          "code": "UZB4",
+          "label": "Jugador 2",
+          "position": 978
+        },
+        {
+          "code": "UZB5",
+          "label": "Jugador 3",
+          "position": 979
+        },
+        {
+          "code": "UZB6",
+          "label": "Jugador 4",
+          "position": 980
+        },
+        {
+          "code": "UZB7",
+          "label": "Jugador 5",
+          "position": 981
+        },
+        {
+          "code": "UZB8",
+          "label": "Jugador 6",
+          "position": 982
+        },
+        {
+          "code": "UZB9",
+          "label": "Jugador 7",
+          "position": 983
+        },
+        {
+          "code": "UZB10",
+          "label": "Jugador 8",
+          "position": 984
+        },
+        {
+          "code": "UZB11",
+          "label": "Jugador 9",
+          "position": 985
+        },
+        {
+          "code": "UZB12",
+          "label": "Jugador 10",
+          "position": 986
+        },
+        {
+          "code": "UZB13",
+          "label": "Jugador 11",
+          "position": 987
+        },
+        {
+          "code": "UZB14",
+          "label": "Jugador 12",
+          "position": 988
+        },
+        {
+          "code": "UZB15",
+          "label": "Jugador 13",
+          "position": 989
+        },
+        {
+          "code": "UZB16",
+          "label": "Jugador 14",
+          "position": 990
+        },
+        {
+          "code": "UZB17",
+          "label": "Jugador 15",
+          "position": 991
+        },
+        {
+          "code": "UZB18",
+          "label": "Jugador 16",
+          "position": 992
+        },
+        {
+          "code": "UZB19",
+          "label": "Jugador 17",
+          "position": 993
+        },
+        {
+          "code": "UZB20",
+          "label": "Jugador 18",
+          "position": 994
+        }
+      ]
+    }
+  ]
+}
