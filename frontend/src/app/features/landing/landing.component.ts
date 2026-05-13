@@ -11,8 +11,7 @@ import { MatIconModule } from '@angular/material/icon';
     <!-- NAV -->
     <nav class="navbar">
       <div class="nav-brand">
-        <span class="brand-icon">⚽</span>
-        <span class="brand-name">LAMINY</span>
+        <img src="logo.svg" alt="LAMINY" class="brand-logo">
       </div>
       <div class="nav-actions">
         <a mat-button routerLink="/login" class="nav-login">Iniciar sesión</a>
@@ -33,6 +32,7 @@ import { MatIconModule } from '@angular/material/icon';
         <div class="sticker-float s5">128</div>
       </div>
       <div class="hero-content">
+        <img src="logo.svg" alt="LAMINY" class="hero-logo">
         <div class="badge">Mundial 2026 · USA · México · Canadá</div>
         <h1 class="hero-title">
           Tu álbum Panini,<br>
@@ -176,9 +176,8 @@ import { MatIconModule } from '@angular/material/icon';
       backdrop-filter: blur(12px);
       border-bottom: 1px solid rgba(255,255,255,.08);
     }
-    .nav-brand { display: flex; align-items: center; gap: 10px; }
-    .brand-icon { font-size: 24px; }
-    .brand-name { font-size: 20px; font-weight: 700; color: #fff; letter-spacing: -.5px; }
+    .nav-brand { display: flex; align-items: center; }
+    .brand-logo { height: 44px; width: auto; }
     .nav-actions { display: flex; align-items: center; gap: 8px; }
     .nav-login { color: rgba(255,255,255,.8) !important; }
 
@@ -229,6 +228,16 @@ import { MatIconModule } from '@angular/material/icon';
     .hero-content {
       position: relative; z-index: 2;
       max-width: 680px; text-align: center;
+    }
+    .hero-logo {
+      width: 140px; height: auto;
+      margin-bottom: 24px;
+      filter: drop-shadow(0 8px 24px rgba(21,101,192,.5));
+      animation: logoFloat 4s ease-in-out infinite;
+    }
+    @keyframes logoFloat {
+      0%, 100% { transform: translateY(0); }
+      50%       { transform: translateY(-10px); }
     }
     .badge {
       display: inline-block;

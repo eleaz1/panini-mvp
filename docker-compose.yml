@@ -7,11 +7,8 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
-    environment:
-      - DATABASE_URL=sqlite+aiosqlite:///./panini.db
-      - SECRET_KEY=${SECRET_KEY:-change-me-please}
-      - DEBUG=false
-      - CORS_ORIGINS=["http://localhost:80","http://localhost:4200"]
+    env_file:
+      - ./backend/.env
     volumes:
       - panini_data:/app/data
     healthcheck:
