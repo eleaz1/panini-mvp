@@ -10,6 +10,7 @@ engine = create_async_engine(
     settings.database_url,
     echo=settings.debug,
     future=True,
+    connect_args={"statement_cache_size": 0} if "supabase" in settings.database_url else {},
 )
 
 async_session_factory = async_sessionmaker(
