@@ -14,6 +14,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import {
   AlbumService, Album, Sticker, StickerStatus, AlbumStats,
 } from '../../core/services/album.service';
+import { ReportService } from '../../core/services/report.service';
 
 interface StickerCell {
   number: number;
@@ -50,6 +51,14 @@ interface SectionGroup {
           <mat-icon>swap_horiz</mat-icon>
           <span class="swaps-label">Intercambios</span>
         </a>
+        <button class="pdf-btn" (click)="downloadComplete()" matTooltip="Descargar reporte completo (colores por estado)">
+          <mat-icon>picture_as_pdf</mat-icon>
+          <span class="pdf-label">Completo</span>
+        </button>
+        <button class="pdf-btn pdf-btn--missing" (click)="downloadMissing()" matTooltip="Descargar lista de láminas faltantes para compartir">
+          <mat-icon>share</mat-icon>
+          <span class="pdf-label">Faltantes</span>
+        </button>
       </header>
 
       <!-- ── Stats strip ─────────────────────────────── -->
@@ -233,6 +242,29 @@ interface SectionGroup {
     .swaps-btn:hover { border-color: rgba(255,255,255,.7) !important; }
     .swaps-label { display: none; }
     @media (min-width: 480px) { .swaps-label { display: inline; } }
+
+    .pdf-btn {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 0 12px;
+      height: 36px;
+      border-radius: 20px;
+      border: 1.5px solid rgba(255,255,255,.35);
+      background: transparent;
+      color: rgba(255,255,255,.9);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: border-color .15s, background .15s;
+    }
+    .pdf-btn:hover { border-color: rgba(255,255,255,.7); background: rgba(255,255,255,.1); }
+    .pdf-btn mat-icon { font-size: 18px; height: 18px; width: 18px; }
+    .pdf-btn--missing { border-color: rgba(255,152,0,.6); color: #ffcc80; }
+    .pdf-btn--missing:hover { border-color: #ffa726; background: rgba(255,152,0,.15); }
+    .pdf-label { display: none; }
+    @media (min-width: 600px) { .pdf-label { display: inline; } }
 
     /* ── Stats strip ─────────────────────────────── */
     .stats-strip {
@@ -432,6 +464,7 @@ export class StickerGridComponent implements OnInit {
   private route = inject(ActivatedRoute);
   private router = inject(Router);
   private albumService = inject(AlbumService);
+  private reportService = inject(ReportService);
 
   albumId = signal(0);
   album = signal<Album | null>(null);
@@ -442,7 +475,7 @@ export class StickerGridComponent implements OnInit {
   activeFilter = signal<'all' | StickerStatus>('all');
   activeSectionName = '';
 
-  private stickerMap = signal<Map<number, StickerStatus>>(new Map());
+  stickerMap = signal<Map<number, StickerStatus>>(new Map());
   sections = signal<SectionGroup[]>([]);
 
   private allNumbers = computed(() =>
@@ -613,6 +646,20 @@ export class StickerGridComponent implements OnInit {
 
   setFilter(f: 'all' | StickerStatus): void {
     this.activeFilter.set(f);
+  }
+
+  downloadComplete(): void {
+    const album = this.album();
+    const stats = this.stats();
+    if (!album || !stats) return;
+    this.reportService.downloadCompleteReport(album, stats, this.sections(), this.stickerMap());
+  }
+
+  downloadMissing(): void {
+    const album = this.album();
+    const stats = this.stats();
+    if (!album || !stats) return;
+    this.reportService.downloadMissingReport(album, stats, this.sections(), this.stickerMap());
   }
 
   back(): void {
