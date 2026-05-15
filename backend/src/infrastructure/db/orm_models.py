@@ -70,6 +70,7 @@ class TemplateSectionORM(Base):
     name: Mapped[str] = mapped_column(String(100))
     code_prefix: Mapped[str] = mapped_column(String(10))
     order: Mapped[int] = mapped_column(Integer, default=0)
+    group: Mapped[str] = mapped_column(String(10), default="", server_default="")
 
     template: Mapped["AlbumTemplateORM"] = relationship(back_populates="sections")
     stickers: Mapped[list["TemplateStickerORM"]] = relationship(

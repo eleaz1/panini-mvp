@@ -97,6 +97,7 @@ def _template_section_to_domain(orm: TemplateSectionORM) -> TemplateSection:
         name=orm.name,
         code_prefix=orm.code_prefix,
         order=orm.order,
+        group=orm.group,
         stickers=[
             TemplateSticker(
                 code=s.code,
@@ -402,6 +403,7 @@ class SQLAlbumTemplateRepository(AlbumTemplateRepositoryPort):
                 name=section.name,
                 code_prefix=section.code_prefix,
                 order=section.order,
+                group=section.group,
             )
             self._session.add(sec_orm)
             await self._session.flush()
@@ -462,6 +464,7 @@ class SQLAlbumTemplateRepository(AlbumTemplateRepositoryPort):
                 name=section.name,
                 code_prefix=section.code_prefix,
                 order=section.order,
+                group=section.group,
             )
             self._session.add(sec_orm)
             await self._session.flush()

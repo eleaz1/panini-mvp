@@ -23,8 +23,31 @@ interface StickerCell {
 
 interface SectionGroup {
   name: string;
+  group: string;
+  code_prefix: string;
   cells: StickerCell[];
 }
+
+interface GroupBlock {
+  group: string;
+  sections: SectionGroup[];
+}
+
+const FLAGS: Record<string, string> = {
+  MEX: '🇲🇽', RSA: '🇿🇦', KOR: '🇰🇷', CZE: '🇨🇿',
+  CAN: '🇨🇦', BIH: '🇧🇦', QAT: '🇶🇦', SUI: '🇨🇭',
+  BRA: '🇧🇷', MAR: '🇲🇦', HAI: '🇭🇹', SCO: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+  USA: '🇺🇸', PAR: '🇵🇾', AUS: '🇦🇺', TUR: '🇹🇷',
+  GER: '🇩🇪', CUW: '🇨🇼', CIV: '🇨🇮', ECU: '🇪🇨',
+  NED: '🇳🇱', JPN: '🇯🇵', SWE: '🇸🇪', TUN: '🇹🇳',
+  BEL: '🇧🇪', EGY: '🇪🇬', IRN: '🇮🇷', NZL: '🇳🇿',
+  ESP: '🇪🇸', CPV: '🇨🇻', KSA: '🇸🇦', URU: '🇺🇾',
+  FRA: '🇫🇷', SEN: '🇸🇳', IRQ: '🇮🇶', NOR: '🇳🇴',
+  ARG: '🇦🇷', ALG: '🇩🇿', AUT: '🇦🇹', JOR: '🇯🇴',
+  POR: '🇵🇹', COD: '🇨🇩', UZB: '🇺🇿', COL: '🇨🇴',
+  ENG: '🏴󠁧󠁢󠁥󠁮󠁧󠁿', CRO: '🇭🇷', GHA: '🇬🇭', PAN: '🇵🇦',
+  FWC: '🏆',
+};
 
 @Component({
   selector: 'app-sticker-grid',
@@ -118,8 +141,18 @@ interface SectionGroup {
                 <mat-label>País / Sección</mat-label>
                 <mat-select [(ngModel)]="activeSectionName" (ngModelChange)="onSectionChange()">
                   <mat-option value="">Todos</mat-option>
-                  @for (s of sections(); track s.name) {
-                    <mat-option [value]="s.name">{{ s.name }} · {{ sectionCount(s) }}</mat-option>
+                  @for (block of groupedSections(); track block.group) {
+                    @if (block.group) {
+                      <mat-optgroup [label]="'Grupo ' + block.group">
+                        @for (s of block.sections; track s.name) {
+                          <mat-option [value]="s.name">{{ flag(s) }} {{ s.name }} · {{ sectionCount(s) }}</mat-option>
+                        }
+                      </mat-optgroup>
+                    } @else {
+                      @for (s of block.sections; track s.name) {
+                        <mat-option [value]="s.name">{{ flag(s) }} {{ s.name }} · {{ sectionCount(s) }}</mat-option>
+                      }
+                    }
                   }
                 </mat-select>
               </mat-form-field>
@@ -149,25 +182,35 @@ interface SectionGroup {
 
         } @else if (sections().length > 0) {
           <!-- Vista agrupada por sección -->
-          @for (section of visibleSections(); track section.name) {
-            @let cells = visibleCells(section.cells);
-            @if (cells.length > 0) {
-              <div class="section-block">
-                <div class="section-header">
-                  <span class="section-name">{{ section.name }}</span>
-                  <span class="section-badge">{{ sectionStatusSummary(section) }}</span>
-                </div>
-                <div class="sticker-grid template-grid">
-                  @for (cell of cells; track cell.number) {
-                    <button class="sticker-cell {{ cellStatus(cell.number) }}"
-                            [matTooltip]="cellTooltip(cell)"
-                            (click)="cycleSticker(cell.number)"
-                            [disabled]="updating().has(cell.number)">
-                      {{ cell.display }}
-                    </button>
-                  }
-                </div>
+          @for (block of groupedSections(); track block.group) {
+            @if (block.group) {
+              <div class="group-header">
+                <span class="group-label">Grupo {{ block.group }}</span>
               </div>
+            }
+            @for (section of block.sections; track section.name) {
+              @let cells = visibleCells(section.cells);
+              @if (cells.length > 0) {
+                <div class="section-block">
+                  <div class="section-header">
+                    @if (flag(section)) {
+                      <span class="section-flag">{{ flag(section) }}</span>
+                    }
+                    <span class="section-name">{{ section.name }}</span>
+                    <span class="section-badge">{{ sectionStatusSummary(section) }}</span>
+                  </div>
+                  <div class="sticker-grid template-grid">
+                    @for (cell of cells; track cell.number) {
+                      <button class="sticker-cell {{ cellStatus(cell.number) }}"
+                              [matTooltip]="cellTooltip(cell)"
+                              (click)="cycleSticker(cell.number)"
+                              [disabled]="updating().has(cell.number)">
+                        {{ cell.display }}
+                      </button>
+                    }
+                  </div>
+                </div>
+              }
             }
           }
           @if (visibleSections().length === 0 || allVisibleEmpty()) {
@@ -373,6 +416,34 @@ interface SectionGroup {
       padding: 20px 16px 48px;
     }
 
+    /* ── Group header ────────────────────────────── */
+    .group-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 28px 0 12px;
+    }
+    .group-header:first-child { margin-top: 0; }
+    .group-label {
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      color: #fff;
+      background: #1a237e;
+      padding: 3px 12px;
+      border-radius: 20px;
+      white-space: nowrap;
+    }
+    .group-header::after {
+      content: '';
+      flex: 1;
+      height: 2px;
+      background: #1a237e;
+      opacity: .15;
+      border-radius: 1px;
+    }
+
     /* ── Sections ────────────────────────────────── */
     .section-block { margin-bottom: 28px; }
     .section-header {
@@ -383,6 +454,7 @@ interface SectionGroup {
       padding-bottom: 8px;
       border-bottom: 2px solid #e8edf2;
     }
+    .section-flag { font-size: 20px; line-height: 1; flex-shrink: 0; }
     .section-name {
       font-size: 13px;
       font-weight: 800;
@@ -516,6 +588,8 @@ export class StickerGridComponent implements OnInit {
           next: (tmpl) => {
             const groups = tmpl.sections.map(sec => ({
               name: sec.name,
+              group: sec.group ?? '',
+              code_prefix: sec.code_prefix,
               cells: sec.stickers.map(st => ({
                 number: st.position,
                 display: st.code,
@@ -543,7 +617,7 @@ export class StickerGridComponent implements OnInit {
       if (!map.has(prefix)) map.set(prefix, []);
       map.get(prefix)!.push({ number: s.number, display: s.code ?? String(s.number) });
     }
-    this.sections.set([...map.entries()].map(([name, cells]) => ({ name, cells })));
+    this.sections.set([...map.entries()].map(([name, cells]) => ({ name, group: '', code_prefix: name, cells })));
   }
 
   // ── Filtros ───────────────────────────────────────────────────────────────
@@ -551,6 +625,21 @@ export class StickerGridComponent implements OnInit {
   visibleSections(): SectionGroup[] {
     const name = this.activeSectionName;
     return name ? this.sections().filter(s => s.name === name) : this.sections();
+  }
+
+  groupedSections(): GroupBlock[] {
+    const result: GroupBlock[] = [];
+    const seen = new Map<string, GroupBlock>();
+    for (const s of this.visibleSections()) {
+      const g = s.group || '';
+      if (!seen.has(g)) {
+        const block: GroupBlock = { group: g, sections: [] };
+        seen.set(g, block);
+        result.push(block);
+      }
+      seen.get(g)!.sections.push(s);
+    }
+    return result;
   }
 
   visibleCells(cells: StickerCell[]): StickerCell[] {
@@ -575,6 +664,10 @@ export class StickerGridComponent implements OnInit {
   }
 
   // ── Helpers de sección ────────────────────────────────────────────────────
+
+  flag(section: SectionGroup): string {
+    return FLAGS[section.code_prefix] ?? '';
+  }
 
   sectionCount(section: SectionGroup): string {
     const have = section.cells.filter(c => this.cellStatus(c.number) === 'have').length;

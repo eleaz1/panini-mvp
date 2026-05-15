@@ -13,6 +13,8 @@ services:
       - "8000:8000"
     env_file:
       - ./backend/.env
+    volumes:
+      - panini_db:/app/db
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
       interval: 30s
@@ -28,3 +30,6 @@ services:
       - "80:80"
     depends_on:
       - backend
+
+volumes:
+  panini_db:

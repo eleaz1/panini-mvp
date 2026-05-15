@@ -33,57 +33,73 @@ _TEAM_LABELS = [
     "Jugador 18",
 ]
 
-# 48 teams in alphabetical order by code (matches official album ordering)
+# 48 teams ordered by FIFA group (matches official Panini album ordering)
+# Each entry: (code_prefix, name, group)
 _TEAMS = [
-    ("ALG", "Argelia"),
-    ("ARG", "Argentina"),
-    ("AUS", "Australia"),
-    ("AUT", "Austria"),
-    ("BEL", "Bélgica"),
-    ("BIH", "Bosnia y Herzegovina"),
-    ("BRA", "Brasil"),
-    ("CAN", "Canadá"),
-    ("CIV", "Costa de Marfil"),
-    ("COD", "Congo DR"),
-    ("COL", "Colombia"),
-    ("CPV", "Cabo Verde"),
-    ("CRO", "Croacia"),
-    ("CUW", "Curazao"),
-    ("CZE", "Chequia"),
-    ("ECU", "Ecuador"),
-    ("EGY", "Egipto"),
-    ("ENG", "Inglaterra"),
-    ("ESP", "España"),
-    ("FRA", "Francia"),
-    ("GER", "Alemania"),
-    ("GHA", "Ghana"),
-    ("HAI", "Haití"),
-    ("IRN", "Irán"),
-    ("IRQ", "Irak"),
-    ("JOR", "Jordania"),
-    ("JPN", "Japón"),
-    ("KOR", "Corea del Sur"),
-    ("KSA", "Arabia Saudita"),
-    ("MAR", "Marruecos"),
-    ("MEX", "México"),
-    ("NED", "Países Bajos"),
-    ("NOR", "Noruega"),
-    ("NZL", "Nueva Zelanda"),
-    ("PAN", "Panamá"),
-    ("PAR", "Paraguay"),
-    ("POR", "Portugal"),
-    ("QAT", "Qatar"),
-    ("RSA", "Sudáfrica"),
-    ("SCO", "Escocia"),
-    ("SEN", "Senegal"),
-    ("SUI", "Suiza"),
-    ("SWE", "Suecia"),
-    ("TUN", "Túnez"),
-    ("TUR", "Türkiye"),
-    ("URU", "Uruguay"),
-    ("USA", "Estados Unidos"),
-    ("UZB", "Uzbekistán"),
+    # Grupo A
+    ("MEX", "México",              "A"),
+    ("RSA", "Sudáfrica",           "A"),
+    ("KOR", "Corea del Sur",       "A"),
+    ("CZE", "Chequia",             "A"),
+    # Grupo B
+    ("CAN", "Canadá",              "B"),
+    ("BIH", "Bosnia y Herzegovina","B"),
+    ("QAT", "Qatar",               "B"),
+    ("SUI", "Suiza",               "B"),
+    # Grupo C
+    ("BRA", "Brasil",              "C"),
+    ("MAR", "Marruecos",           "C"),
+    ("HAI", "Haití",               "C"),
+    ("SCO", "Escocia",             "C"),
+    # Grupo D
+    ("USA", "Estados Unidos",      "D"),
+    ("PAR", "Paraguay",            "D"),
+    ("AUS", "Australia",           "D"),
+    ("TUR", "Türkiye",             "D"),
+    # Grupo E
+    ("GER", "Alemania",            "E"),
+    ("CUW", "Curazao",             "E"),
+    ("CIV", "Costa de Marfil",     "E"),
+    ("ECU", "Ecuador",             "E"),
+    # Grupo F
+    ("NED", "Países Bajos",        "F"),
+    ("JPN", "Japón",               "F"),
+    ("SWE", "Suecia",              "F"),
+    ("TUN", "Túnez",               "F"),
+    # Grupo G
+    ("BEL", "Bélgica",             "G"),
+    ("EGY", "Egipto",              "G"),
+    ("IRN", "Irán",                "G"),
+    ("NZL", "Nueva Zelanda",       "G"),
+    # Grupo H
+    ("ESP", "España",              "H"),
+    ("CPV", "Cabo Verde",          "H"),
+    ("KSA", "Arabia Saudita",      "H"),
+    ("URU", "Uruguay",             "H"),
+    # Grupo I
+    ("FRA", "Francia",             "I"),
+    ("SEN", "Senegal",             "I"),
+    ("IRQ", "Irak",                "I"),
+    ("NOR", "Noruega",             "I"),
+    # Grupo J
+    ("ARG", "Argentina",           "J"),
+    ("ALG", "Argelia",             "J"),
+    ("AUT", "Austria",             "J"),
+    ("JOR", "Jordania",            "J"),
+    # Grupo K
+    ("POR", "Portugal",            "K"),
+    ("COD", "Congo DR",            "K"),
+    ("UZB", "Uzbekistán",          "K"),
+    ("COL", "Colombia",            "K"),
+    # Grupo L
+    ("ENG", "Inglaterra",          "L"),
+    ("CRO", "Croacia",             "L"),
+    ("GHA", "Ghana",               "L"),
+    ("PAN", "Panamá",              "L"),
 ]
+
+_GROUP_MAP: dict[str, str] = {prefix: grp for prefix, _, grp in _TEAMS}
+_ORDER_MAP: dict[str, int] = {prefix: i for i, (prefix, _, _grp) in enumerate(_TEAMS, start=1)}
 
 
 _CC_LABELS = [
@@ -164,7 +180,7 @@ def build_wc2026_sections() -> list[TemplateSection]:
     pos += 14  # CC1–CC14
 
     # ── 48 selecciones × 20 láminas ──────────────────────────────────────────
-    for order, (prefix, name) in enumerate(_TEAMS, start=1):
+    for order, (prefix, name, group) in enumerate(_TEAMS, start=1):
         stickers = [
             TemplateSticker(
                 code=f"{prefix}{i}",
@@ -178,6 +194,7 @@ def build_wc2026_sections() -> list[TemplateSection]:
             name=name,
             code_prefix=prefix,
             order=order,
+            group=group,
             stickers=stickers,
         ))
         pos += 20

@@ -61,6 +61,7 @@ class TemplateSection:
     name: str            # e.g. "Argentina"
     code_prefix: str     # e.g. "ARG"
     order: int = 0
+    group: str = ""      # FIFA group letter e.g. "A", "B", ... "L"
     stickers: list[TemplateSticker] = field(default_factory=list)
 
 

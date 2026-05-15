@@ -23,6 +23,7 @@ export interface TemplateSectionDetail {
   name: string;
   code_prefix: string;
   order: number;
+  group: string;
   stickers: TemplateStickerDetail[];
 }
 

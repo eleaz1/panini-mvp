@@ -93,6 +93,7 @@ class TemplateSectionResponse(BaseModel):
     name: str
     code_prefix: str
     order: int
+    group: str = ""
     stickers: list[TemplateStickerResponse]
 
 

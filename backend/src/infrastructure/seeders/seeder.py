@@ -4,15 +4,19 @@ import os
 
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from sqlalchemy import select, update
+
 from src.domain.entities.models import AlbumTemplate, UserRole
 from src.infrastructure.auth import hash_password
-from src.infrastructure.db.orm_models import UserORM
+from src.infrastructure.db.orm_models import TemplateSectionORM, UserORM
 from src.infrastructure.repositories.sql_repositories import (
     SQLAlbumTemplateRepository,
     SQLUserRepository,
 )
 from src.infrastructure.seeders.world_cup_2026 import (
     WORLD_CUP_2026_TEMPLATE,
+    _GROUP_MAP,
+    _ORDER_MAP,
     build_wc2026_sections,
 )
 
@@ -45,10 +49,36 @@ async def seed_admin_user(session: AsyncSession) -> None:
     logger.info("Admin user created: %s (id=%s)", admin_username, created.id)
 
 
+async def _backfill_wc2026_groups(session: AsyncSession) -> None:
+    """Assign group + fix FIFA order for existing WC2026 sections missing the group field."""
+    result = await session.execute(
+        select(TemplateSectionORM).where(TemplateSectionORM.group == "")
+    )
+    sections = result.scalars().all()
+    updated = 0
+    for sec in sections:
+        grp = _GROUP_MAP.get(sec.code_prefix)
+        new_order = _ORDER_MAP.get(sec.code_prefix)
+        if grp:
+            values: dict = {"group": grp}
+            if new_order is not None:
+                values["order"] = new_order
+            await session.execute(
+                update(TemplateSectionORM)
+                .where(TemplateSectionORM.id == sec.id)
+                .values(**values)
+            )
+            updated += 1
+    if updated:
+        await session.commit()
+        logger.info("Backfilled group + order for %s WC2026 sections", updated)
+
+
 async def seed_wc2026_template(session: AsyncSession) -> None:
     """Create the FIFA World Cup 2026 template if it doesn't exist."""
     repo = SQLAlbumTemplateRepository(session)
     if await repo.exists_by_name(WORLD_CUP_2026_TEMPLATE["name"]):
+        await _backfill_wc2026_groups(session)
         return
 
     user_repo = SQLUserRepository(session)

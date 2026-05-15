@@ -1,6 +1,7 @@
 """Async database engine and session factory."""
 from collections.abc import AsyncGenerator
 
+from sqlalchemy import text
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
 
 from src.config import settings
@@ -24,6 +25,12 @@ async def init_db() -> None:
     """Create all tables. For production use Alembic instead."""
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
+        try:
+            await conn.execute(
+                text('ALTER TABLE template_sections ADD COLUMN "group" TEXT NOT NULL DEFAULT \'\'')
+            )
+        except Exception:
+            pass
 
 
 async def get_session() -> AsyncGenerator[AsyncSession, None]:
