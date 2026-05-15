@@ -2,6 +2,7 @@
 backend/.env
 .env
 **/.env
+deploy/backend.env.production
 
 # System files
 .DS_Store
