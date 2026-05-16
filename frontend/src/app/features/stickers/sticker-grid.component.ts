@@ -11,6 +11,7 @@ import { MatChipsModule } from '@angular/material/chips';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatMenuModule } from '@angular/material/menu';
 import {
   AlbumService, Album, Sticker, StickerStatus, AlbumStats,
 } from '../../core/services/album.service';
@@ -56,7 +57,7 @@ const FLAGS: Record<string, string> = {
     DecimalPipe, RouterLink, FormsModule,
     MatButtonModule, MatIconModule, MatProgressBarModule,
     MatProgressSpinnerModule, MatChipsModule, MatTooltipModule,
-    MatSelectModule, MatFormFieldModule,
+    MatSelectModule, MatFormFieldModule, MatMenuModule,
   ],
   template: `
     <div class="app-shell">
@@ -82,6 +83,20 @@ const FLAGS: Record<string, string> = {
           <mat-icon>share</mat-icon>
           <span class="pdf-label">Faltantes</span>
         </button>
+        <button class="pdf-btn pdf-btn--whatsapp" [matMenuTriggerFor]="waMenu" matTooltip="Compartir en WhatsApp">
+          <mat-icon>chat</mat-icon>
+          <span class="pdf-label">WhatsApp</span>
+        </button>
+        <mat-menu #waMenu="matMenu" class="wa-menu">
+          <button mat-menu-item (click)="shareWhatsApp('duplicate')">
+            <mat-icon style="color:#e65100">repeat</mat-icon>
+            <span>Repetidas ({{ stats()?.duplicate ?? 0 }})</span>
+          </button>
+          <button mat-menu-item (click)="shareWhatsApp('missing')">
+            <mat-icon style="color:#546e7a">help_outline</mat-icon>
+            <span>Me faltan ({{ stats()?.missing ?? 0 }})</span>
+          </button>
+        </mat-menu>
       </header>
 
       <!-- ── Stats strip ─────────────────────────────── -->
@@ -306,6 +321,8 @@ const FLAGS: Record<string, string> = {
     .pdf-btn mat-icon { font-size: 18px; height: 18px; width: 18px; }
     .pdf-btn--missing { border-color: rgba(255,152,0,.6); color: #ffcc80; }
     .pdf-btn--missing:hover { border-color: #ffa726; background: rgba(255,152,0,.15); }
+    .pdf-btn--whatsapp { border-color: rgba(37,211,102,.6); color: #b9f6ca; }
+    .pdf-btn--whatsapp:hover { border-color: #25d366; background: rgba(37,211,102,.15); }
     .pdf-label { display: none; }
     @media (min-width: 600px) { .pdf-label { display: inline; } }
 
@@ -753,6 +770,45 @@ export class StickerGridComponent implements OnInit {
     const stats = this.stats();
     if (!album || !stats) return;
     this.reportService.downloadMissingReport(album, stats, this.sections(), this.stickerMap());
+  }
+
+  shareWhatsApp(type: 'duplicate' | 'missing'): void {
+    const album = this.album();
+    if (!album) return;
+
+    const targetStatus = type === 'duplicate' ? 'duplicate' : 'missing';
+    const label = type === 'duplicate' ? 'repetidas' : 'faltantes';
+    const emoji = type === 'duplicate' ? '🔄' : '❓';
+
+    let codes: string[] = [];
+
+    if (this.sections().length > 0) {
+      for (const section of this.sections()) {
+        const matching = section.cells
+          .filter(c => this.cellStatus(c.number) === targetStatus)
+          .map(c => c.display);
+        codes.push(...matching);
+      }
+    } else {
+      codes = this.allNumbers()
+        .filter(n => this.cellStatus(n) === targetStatus)
+        .map(n => String(n));
+    }
+
+    if (codes.length === 0) {
+      alert(`No tienes láminas ${label} 🎉`);
+      return;
+    }
+
+    const message = [
+      `${emoji} Mis láminas *${label}* — álbum *${album.name}*:`,
+      '',
+      codes.join(', '),
+      '',
+      `_(${codes.length} láminas)_`,
+    ].join('\n');
+
+    window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, '_blank');
   }
 
   back(): void {
