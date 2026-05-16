@@ -777,7 +777,8 @@ export class StickerGridComponent implements OnInit {
     if (!album) return;
 
     const targetStatus = type === 'duplicate' ? 'duplicate' : 'missing';
-    const label = type === 'duplicate' ? 'REPETIDAS' : 'FALTANTES';
+    const label = type === 'duplicate' ? 'repetidas' : 'faltantes';
+    const headerEmoji = type === 'duplicate' ? '🔄' : '❓';
 
     let totalCount = 0;
     let sectionsWithMatches = 0;
@@ -790,7 +791,9 @@ export class StickerGridComponent implements OnInit {
           .map(c => c.display);
         if (matching.length === 0) continue;
 
-        bodyLines.push(`*${section.name}* (${matching.length}): ${matching.join(', ')}`);
+        const flagEmoji = this.flag(section);
+        const prefix = flagEmoji ? `${flagEmoji} ` : '';
+        bodyLines.push(`${prefix}*${section.name}* (${matching.length}): ${matching.join(', ')}`);
         totalCount += matching.length;
         sectionsWithMatches++;
       }
@@ -801,23 +804,29 @@ export class StickerGridComponent implements OnInit {
     }
 
     if (totalCount === 0) {
-      alert(`No tienes laminas ${label.toLowerCase()} :)`);
+      alert(`No tienes láminas ${label} 🎉`);
       return;
     }
 
     const summary = sectionsWithMatches > 0
-      ? `${totalCount} laminas - ${sectionsWithMatches} paises`
-      : `${totalCount} laminas`;
+      ? `${totalCount} láminas · ${sectionsWithMatches} países`
+      : `${totalCount} láminas`;
 
     const message = [
-      `---- Laminas ${label} ----`,
-      `Album: ${album.name}`,
-      `(${summary})`,
+      `${headerEmoji} *Láminas ${label}*`,
+      `📒 ${album.name}`,
+      `_(${summary})_`,
       '',
       ...bodyLines,
     ].join('\n');
 
-    window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, '_blank');
+    // navigator.share pasa el texto nativamente sin URL-encoding,
+    // así los emojis de banderas llegan intactos al receptor.
+    if (navigator.share) {
+      navigator.share({ text: message }).catch(() => {});
+    } else {
+      window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, '_blank');
+    }
   }
 
   back(): void {
