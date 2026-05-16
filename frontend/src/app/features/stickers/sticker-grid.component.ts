@@ -12,6 +12,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import {
   AlbumService, Album, Sticker, StickerStatus, AlbumStats,
 } from '../../core/services/album.service';
@@ -57,7 +59,7 @@ const FLAGS: Record<string, string> = {
     DecimalPipe, RouterLink, FormsModule,
     MatButtonModule, MatIconModule, MatProgressBarModule,
     MatProgressSpinnerModule, MatChipsModule, MatTooltipModule,
-    MatSelectModule, MatFormFieldModule, MatMenuModule,
+    MatSelectModule, MatFormFieldModule, MatMenuModule, MatDividerModule,
   ],
   template: `
     <div class="app-shell">
@@ -87,7 +89,8 @@ const FLAGS: Record<string, string> = {
           <mat-icon>chat</mat-icon>
           <span class="pdf-label">WhatsApp</span>
         </button>
-        <mat-menu #waMenu="matMenu" class="wa-menu">
+        <mat-menu #waMenu="matMenu">
+          <div mat-menu-item disabled style="font-size:11px;opacity:.55;min-height:28px;line-height:28px;padding:0 16px;pointer-events:none">Enviar por WhatsApp</div>
           <button mat-menu-item (click)="shareWhatsApp('duplicate')">
             <mat-icon style="color:#e65100">repeat</mat-icon>
             <span>Repetidas ({{ stats()?.duplicate ?? 0 }})</span>
@@ -95,6 +98,16 @@ const FLAGS: Record<string, string> = {
           <button mat-menu-item (click)="shareWhatsApp('missing')">
             <mat-icon style="color:#546e7a">help_outline</mat-icon>
             <span>Me faltan ({{ stats()?.missing ?? 0 }})</span>
+          </button>
+          <mat-divider></mat-divider>
+          <div mat-menu-item disabled style="font-size:11px;opacity:.55;min-height:28px;line-height:28px;padding:0 16px;pointer-events:none">Copiar texto</div>
+          <button mat-menu-item (click)="copyToClipboard('duplicate')">
+            <mat-icon>content_copy</mat-icon>
+            <span>Copiar repetidas</span>
+          </button>
+          <button mat-menu-item (click)="copyToClipboard('missing')">
+            <mat-icon>content_copy</mat-icon>
+            <span>Copiar faltantes</span>
           </button>
         </mat-menu>
       </header>
@@ -554,6 +567,7 @@ export class StickerGridComponent implements OnInit {
   private router = inject(Router);
   private albumService = inject(AlbumService);
   private reportService = inject(ReportService);
+  private snackBar = inject(MatSnackBar);
 
   albumId = signal(0);
   album = signal<Album | null>(null);
@@ -772,9 +786,9 @@ export class StickerGridComponent implements OnInit {
     this.reportService.downloadMissingReport(album, stats, this.sections(), this.stickerMap());
   }
 
-  shareWhatsApp(type: 'duplicate' | 'missing'): void {
+  private buildShareMessage(type: 'duplicate' | 'missing'): string | null {
     const album = this.album();
-    if (!album) return;
+    if (!album) return null;
 
     const targetStatus = type === 'duplicate' ? 'duplicate' : 'missing';
     const label = type === 'duplicate' ? 'repetidas' : 'faltantes';
@@ -804,29 +818,39 @@ export class StickerGridComponent implements OnInit {
     }
 
     if (totalCount === 0) {
-      alert(`No tienes láminas ${label} 🎉`);
-      return;
+      this.snackBar.open(`No tienes láminas ${label} 🎉`, '', { duration: 2500 });
+      return null;
     }
 
     const summary = sectionsWithMatches > 0
       ? `${totalCount} láminas · ${sectionsWithMatches} países`
       : `${totalCount} láminas`;
 
-    const message = [
+    return [
       `${headerEmoji} *Láminas ${label}*`,
       `📒 ${album.name}`,
       `_(${summary})_`,
       '',
       ...bodyLines,
     ].join('\n');
+  }
 
-    // navigator.share pasa el texto nativamente sin URL-encoding,
-    // así los emojis de banderas llegan intactos al receptor.
-    if (navigator.share) {
-      navigator.share({ text: message }).catch(() => {});
-    } else {
-      window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, '_blank');
-    }
+  shareWhatsApp(type: 'duplicate' | 'missing'): void {
+    const message = this.buildShareMessage(type);
+    if (!message) return;
+    // whatsapp:// abre la app directamente sin redirección web,
+    // lo que preserva los emojis de banderas en el texto.
+    const waUrl = `whatsapp://send?text=${encodeURIComponent(message)}`;
+    const link = document.createElement('a');
+    link.href = waUrl;
+    link.click();
+  }
+
+  async copyToClipboard(type: 'duplicate' | 'missing'): Promise<void> {
+    const message = this.buildShareMessage(type);
+    if (!message) return;
+    await navigator.clipboard.writeText(message);
+    this.snackBar.open('Texto copiado al portapapeles ✓', '', { duration: 2500 });
   }
 
   back(): void {
