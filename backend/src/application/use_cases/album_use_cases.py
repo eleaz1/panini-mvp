@@ -286,12 +286,13 @@ class StickerUseCases:
             raise ValueError(f"Album {album_id} not found")
         counts = await self._stickers.count_by_status(album_id, user_id)
         have = counts[StickerStatus.HAVE]
+        duplicate = counts[StickerStatus.DUPLICATE]
         return {
             "total": album.total_stickers,
             "have": have,
-            "missing": album.total_stickers - have - counts[StickerStatus.DUPLICATE],
-            "duplicate": counts[StickerStatus.DUPLICATE],
-            "completion_pct": album.completion_percentage(have),
+            "missing": album.total_stickers - have - duplicate,
+            "duplicate": duplicate,
+            "completion_pct": album.completion_percentage(have + duplicate),
         }
 
     async def get_swap_matches(

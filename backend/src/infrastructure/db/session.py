@@ -25,12 +25,16 @@ async def init_db() -> None:
     """Create all tables. For production use Alembic instead."""
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
-        try:
+
+    async with engine.begin() as conn:
+        exists = await conn.execute(text(
+            "SELECT 1 FROM information_schema.columns "
+            "WHERE table_name='template_sections' AND column_name='group'"
+        ))
+        if not exists.scalar():
             await conn.execute(
                 text('ALTER TABLE template_sections ADD COLUMN "group" TEXT NOT NULL DEFAULT \'\'')
             )
-        except Exception:
-            pass
 
 
 async def get_session() -> AsyncGenerator[AsyncSession, None]:
