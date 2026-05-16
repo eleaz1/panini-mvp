@@ -777,8 +777,7 @@ export class StickerGridComponent implements OnInit {
     if (!album) return;
 
     const targetStatus = type === 'duplicate' ? 'duplicate' : 'missing';
-    const label = type === 'duplicate' ? 'repetidas' : 'faltantes';
-    const headerEmoji = type === 'duplicate' ? '🔄' : '❓';
+    const label = type === 'duplicate' ? 'REPETIDAS' : 'FALTANTES';
 
     let totalCount = 0;
     let sectionsWithMatches = 0;
@@ -791,9 +790,7 @@ export class StickerGridComponent implements OnInit {
           .map(c => c.display);
         if (matching.length === 0) continue;
 
-        const flagEmoji = this.flag(section);
-        const prefix = flagEmoji ? `${flagEmoji} ` : '';
-        bodyLines.push(`${prefix}*${section.name}* (${matching.length}): ${matching.join(', ')}`);
+        bodyLines.push(`*${section.name}* (${matching.length}): ${matching.join(', ')}`);
         totalCount += matching.length;
         sectionsWithMatches++;
       }
@@ -804,18 +801,18 @@ export class StickerGridComponent implements OnInit {
     }
 
     if (totalCount === 0) {
-      alert(`No tienes láminas ${label} 🎉`);
+      alert(`No tienes laminas ${label.toLowerCase()} :)`);
       return;
     }
 
     const summary = sectionsWithMatches > 0
-      ? `${totalCount} láminas · ${sectionsWithMatches} países`
-      : `${totalCount} láminas`;
+      ? `${totalCount} laminas - ${sectionsWithMatches} paises`
+      : `${totalCount} laminas`;
 
     const message = [
-      `${headerEmoji} *Láminas ${label}*`,
-      `📒 ${album.name}`,
-      `_(${summary})_`,
+      `---- Laminas ${label} ----`,
+      `Album: ${album.name}`,
+      `(${summary})`,
       '',
       ...bodyLines,
     ].join('\n');
